@@ -13,7 +13,12 @@
         },
         "executionEngine": "SPARK_SUBMIT",
         "readParams": {
-          "map": {}
+          "map": {
+            "DATALOAD_TEMP1_loandefaulteval1_joined": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true
@@ -58,11 +63,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572379403383
+    "lastModifiedOn": 1572379430291
   },
   "creationTag": {
     "versionNumber": 0,
