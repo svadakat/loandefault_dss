@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572380494111
+    "lastModifiedOn": 1572380605910
   },
   "checklists": {
     "checklists": []
@@ -20,10 +20,65 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "nEggOhyh",
+      "type": "ds_modified",
+      "delay": 900,
+      "active": true,
+      "params": {
+        "watches": [
+          {
+            "type": "DATASET",
+            "itemId": "DATALOAD_TEMP1_loandefaulteval1",
+            "partitionsSpec": ""
+          },
+          {
+            "type": "DATASET",
+            "itemId": "EvalTestRemainingCols",
+            "partitionsSpec": ""
+          }
+        ]
+      },
+      "graceDelaySettings": {
+        "delay": 120,
+        "checkAgainAfterGraceDelay": true
+      }
+    }
+  ],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "build_2_true_d_ScoredResults_d_ScoredMetrics",
+        "type": "build_flowitem",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "ScoredResults",
+              "partitionsSpec": ""
+            },
+            {
+              "type": "DATASET",
+              "itemId": "ScoredMetrics",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_FORCED_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
