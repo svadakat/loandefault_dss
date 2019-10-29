@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572380605910
+    "lastModifiedOn": 1572380627631
   },
   "checklists": {
     "checklists": []
@@ -52,7 +52,7 @@
       {
         "id": "build_2_true_d_ScoredResults_d_ScoredMetrics",
         "type": "build_flowitem",
-        "name": "Step #1",
+        "name": "GetScoredResultsAndMetrics",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
