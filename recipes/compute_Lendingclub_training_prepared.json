@@ -13,7 +13,12 @@
         },
         "executionEngine": "SPARK_SUBMIT",
         "readParams": {
-          "map": {}
+          "map": {
+            "Lendingclub_training": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true
@@ -58,11 +63,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572378300549
+    "lastModifiedOn": 1572378405942
   },
   "creationTag": {
     "versionNumber": 0,
