@@ -51,7 +51,8 @@
         "columns": [
           "delinq_2yrs",
           "inq_last_6mths",
-          "mths_since_last_delinq"
+          "mths_since_last_delinq",
+          "annual_inc"
         ],
         "appliesTo": "COLUMNS",
         "stopAfterFirstMatch": false,
