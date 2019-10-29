@@ -6,144 +6,196 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "LoanID",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "LoanID",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "﻿loan_amnt",
+      "type": "string",
       "table": 0
     },
     {
       "name": "funded_amnt",
+      "type": "string",
       "table": 0
     },
     {
       "name": "term",
+      "type": "string",
       "table": 0
     },
     {
       "name": "int_rate",
+      "type": "string",
       "table": 0
     },
     {
       "name": "installment",
+      "type": "string",
       "table": 0
     },
     {
       "name": "grade",
+      "type": "string",
       "table": 0
     },
     {
       "name": "sub_grade",
+      "type": "string",
       "table": 0
     },
     {
       "name": "LoanID",
+      "type": "string",
       "table": 0
     },
     {
       "name": "emp_title",
+      "type": "string",
       "table": 1
     },
     {
       "name": "emp_length",
+      "type": "string",
       "table": 1
     },
     {
       "name": "home_ownership",
+      "type": "string",
       "table": 1
     },
     {
       "name": "annual_inc",
+      "type": "string",
       "table": 1
     },
     {
       "name": "verification_status",
+      "type": "string",
       "table": 1
     },
     {
       "name": "pymnt_plan",
+      "type": "string",
       "table": 1
     },
     {
       "name": "url",
+      "type": "string",
       "table": 1
     },
     {
       "name": "desc",
+      "type": "string",
       "table": 1
     },
     {
       "name": "purpose",
+      "type": "string",
       "table": 1
     },
     {
       "name": "title",
+      "type": "string",
       "table": 1
     },
     {
       "name": "zip_code",
+      "type": "string",
       "table": 1
     },
     {
       "name": "addr_state",
+      "type": "string",
       "table": 1
     },
     {
       "name": "dti",
+      "type": "string",
       "table": 1
     },
     {
       "name": "delinq_2yrs",
+      "type": "string",
       "table": 1
     },
     {
       "name": "earliest_cr_line",
+      "type": "string",
       "table": 1
     },
     {
       "name": "inq_last_6mths",
+      "type": "string",
       "table": 1
     },
     {
       "name": "mths_since_last_delinq",
+      "type": "string",
       "table": 1
     },
     {
       "name": "mths_since_last_record",
+      "type": "string",
       "table": 1
     },
     {
       "name": "open_acc",
+      "type": "string",
       "table": 1
     },
     {
       "name": "pub_rec",
+      "type": "string",
       "table": 1
     },
     {
       "name": "revol_bal",
+      "type": "string",
       "table": 1
     },
     {
       "name": "revol_util",
+      "type": "string",
       "table": 1
     },
     {
       "name": "total_acc",
+      "type": "string",
       "table": 1
     },
     {
       "name": "initial_list_status",
+      "type": "string",
       "table": 1
     },
     {
       "name": "mths_since_last_major_derog",
+      "type": "string",
       "table": 1
     },
     {
       "name": "policy_code",
+      "type": "string",
       "table": 1
     }
   ],
@@ -194,5 +246,159 @@
       "computedColumns": []
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "originalType": "text",
+            "name": "﻿loan_amnt",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "funded_amnt",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "term",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "int_rate",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "installment",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "grade",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "sub_grade",
+            "type": "string"
+          },
+          {
+            "originalType": "text",
+            "name": "LoanID",
+            "type": "string"
+          },
+          {
+            "name": "emp_title",
+            "type": "string"
+          },
+          {
+            "name": "emp_length",
+            "type": "string"
+          },
+          {
+            "name": "home_ownership",
+            "type": "string"
+          },
+          {
+            "name": "annual_inc",
+            "type": "string"
+          },
+          {
+            "name": "verification_status",
+            "type": "string"
+          },
+          {
+            "name": "pymnt_plan",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "desc",
+            "type": "string"
+          },
+          {
+            "name": "purpose",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "zip_code",
+            "type": "string"
+          },
+          {
+            "name": "addr_state",
+            "type": "string"
+          },
+          {
+            "name": "dti",
+            "type": "string"
+          },
+          {
+            "name": "delinq_2yrs",
+            "type": "string"
+          },
+          {
+            "name": "earliest_cr_line",
+            "type": "string"
+          },
+          {
+            "name": "inq_last_6mths",
+            "type": "string"
+          },
+          {
+            "name": "mths_since_last_delinq",
+            "type": "string"
+          },
+          {
+            "name": "mths_since_last_record",
+            "type": "string"
+          },
+          {
+            "name": "open_acc",
+            "type": "string"
+          },
+          {
+            "name": "pub_rec",
+            "type": "string"
+          },
+          {
+            "name": "revol_bal",
+            "type": "string"
+          },
+          {
+            "name": "revol_util",
+            "type": "string"
+          },
+          {
+            "name": "total_acc",
+            "type": "string"
+          },
+          {
+            "name": "initial_list_status",
+            "type": "string"
+          },
+          {
+            "name": "mths_since_last_major_derog",
+            "type": "string"
+          },
+          {
+            "name": "policy_code",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
