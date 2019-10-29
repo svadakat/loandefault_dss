@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572380963829
+    "lastModifiedOn": 1572380995362
   },
   "creationTag": {
     "versionNumber": 0,
@@ -239,11 +239,12 @@
     "runOnBuild": false,
     "checks": [
       {
-        "minimum": 0.0,
+        "metricId": "check:CHECK:AccuracyCheck",
+        "minimum": 0.65,
         "maximum": 0.0,
         "softMinimum": 0.0,
         "softMaximum": 0.0,
-        "minimumEnabled": false,
+        "minimumEnabled": true,
         "maximumEnabled": false,
         "softMinimumEnabled": false,
         "softMaximumEnabled": false,
