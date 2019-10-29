@@ -2,7 +2,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction (RANDOM_FOREST_CLASSIFICATION) on Lendingclub_training_prepared",
-  "activeVersion": "initial",
+  "activeVersion": "1572380219299",
   "conditionalOutputs": [],
   "lastExportedFrom": "A-LOANDEFAULTNEW-uXiClmlL-8SBtg6C5-s1-pp1-m1",
   "metrics": {
@@ -85,7 +85,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -103,7 +102,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -121,7 +119,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -140,7 +137,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -163,7 +159,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -241,13 +236,11 @@
           5
         ],
         "distance_weighting": false,
-        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
-        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -664,11 +657,11 @@
     "predictionDisplayCharts": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572378874444
+    "lastModifiedOn": 1572380238401
   },
   "creationTag": {
     "versionNumber": 0,
