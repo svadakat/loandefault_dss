@@ -1,5 +1,20 @@
 {
-  "endpoints": [],
+  "name": "Test",
+  "endpoints": [
+    {
+      "queries": [
+        {
+          "inputParameters": [],
+          "query": "-- Insert your SQL code here",
+          "postCommit": false,
+          "maxResults": -1
+        }
+      ],
+      "testQueries": [],
+      "id": "test",
+      "type": "SQL_QUERY"
+    }
+  ],
   "publicAccess": true,
   "authRealm": {
     "queryKeys": []
