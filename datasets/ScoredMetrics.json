@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572381685101
+    "lastModifiedOn": 1572983917234
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,50 +61,6 @@
       {
         "name": "date",
         "type": "date"
-      },
-      {
-        "name": "precision",
-        "type": "double"
-      },
-      {
-        "name": "recall",
-        "type": "double"
-      },
-      {
-        "name": "auc",
-        "type": "double"
-      },
-      {
-        "name": "f1",
-        "type": "double"
-      },
-      {
-        "name": "accuracy",
-        "type": "double"
-      },
-      {
-        "name": "mcc",
-        "type": "double"
-      },
-      {
-        "name": "hammingLoss",
-        "type": "double"
-      },
-      {
-        "name": "logLoss",
-        "type": "double"
-      },
-      {
-        "name": "lift",
-        "type": "double"
-      },
-      {
-        "name": "calibrationLoss",
-        "type": "double"
-      },
-      {
-        "name": "customScore",
-        "type": "double"
       }
     ],
     "userModified": true
