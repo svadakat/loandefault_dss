@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1573051431592
+    "lastModifiedOn": 1573051443210
   },
   "creationTag": {
     "versionNumber": 0,
@@ -237,7 +237,8 @@
         "softMaximumEnabled": false,
         "type": "numericRange",
         "meta": {
-          "name": "Value in range"
+          "name": "Value in range",
+          "label": "CheckingAccuracy"
         },
         "computeOnBuildMode": "PARTITION"
       }
