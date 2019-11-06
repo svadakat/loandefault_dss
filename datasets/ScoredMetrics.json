@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572983917234
+    "lastModifiedOn": 1573051040150
   },
   "creationTag": {
     "versionNumber": 0,
@@ -96,12 +96,7 @@
           "level": 2
         },
         "configuration": {
-          "aggregates": [
-            {
-              "column": "accuracy",
-              "aggregated": "MEAN"
-            }
-          ]
+          "aggregates": []
         }
       },
       {
@@ -187,7 +182,10 @@
       "metrics": [
         "basic:COUNT_COLUMNS",
         "records:COUNT_RECORDS",
-        "check:CHECK:AccuracyCheck"
+        "check:CHECK:AccuracyCheck",
+        "reporting:BUILD_START_DATE",
+        "reporting:BUILD_DURATION",
+        "col_stats:MEAN:accuracy"
       ]
     }
   },
