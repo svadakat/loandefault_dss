@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1573051357011
+    "lastModifiedOn": 1573051431592
   },
   "creationTag": {
     "versionNumber": 0,
@@ -227,7 +227,7 @@
     "checks": [
       {
         "metricId": "col_stats:MEAN:accuracy",
-        "minimum": 0.6,
+        "minimum": 0.4,
         "maximum": 0.0,
         "softMinimum": 0.0,
         "softMaximum": 0.0,
@@ -237,8 +237,7 @@
         "softMaximumEnabled": false,
         "type": "numericRange",
         "meta": {
-          "name": "Value in range",
-          "label": "AccuracyCheck"
+          "name": "Value in range"
         },
         "computeOnBuildMode": "PARTITION"
       }
