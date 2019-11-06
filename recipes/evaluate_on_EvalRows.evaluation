@@ -18,7 +18,12 @@
   "forceOriginalEngine": false,
   "metrics": [
     "precision",
-    "recall"
+    "recall",
+    "auc",
+    "f1",
+    "accuracy",
+    "logLoss",
+    "lift"
   ],
   "batchSize": 100,
   "forcedClassifierThreshold": 0,
