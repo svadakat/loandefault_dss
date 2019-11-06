@@ -1,11 +1,59 @@
 {
   "envSelection": {
-    "envMode": "INHERIT"
+    "envMode": "USE_BUILTIN_MODE"
   },
   "core": {
+    "taskType": "PREDICTION",
+    "executionParams": {
+      "envSelection": {
+        "envMode": "USE_BUILTIN_MODE"
+      },
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "sparkParams": {
+        "pipelineAllowMerge": true,
+        "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+        "pipelineAllowStart": true,
+        "sparkExecutionEngine": "SPARK_SUBMIT",
+        "sparkConf": {
+          "inheritConf": "default",
+          "conf": []
+        },
+        "sparkRepartitionNonHDFS": 1,
+        "sparkUseGlobalMetastore": false
+      },
+      "sparkCheckpoint": "NONE"
+    },
+    "backendType": "PY_MEMORY",
     "target_variable": "LoanDefault_Indicator",
     "weight": {
       "weightMethod": "CLASS_WEIGHT"
+    },
+    "time": {
+      "ascending": true,
+      "enabled": false
+    },
+    "partitionedModel": {
+      "ssdSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxRecords": -1,
+        "ordering": {
+          "rules": [],
+          "enabled": false
+        },
+        "withinFirstN": -1,
+        "partitionSelectionMethod": "ALL",
+        "targetRatio": 0.02,
+        "maxReadUncompressedBytes": -1,
+        "samplingMethod": "FULL"
+      },
+      "enabled": false
     },
     "calibration": {
       "calibrationMethod": "NO_CALIBRATION"
@@ -35,6 +83,7 @@
     },
     "computeLearningCurves": false,
     "max_ensemble_nodes_serialized": 6000,
+    "pluginAlgoCustomGridSearch": false,
     "metrics": {
       "customEvaluationMetricGIB": true,
       "costMatrixWeights": {
@@ -65,7 +114,8 @@
     "algorithm": "RANDOM_FOREST_CLASSIFICATION",
     "gridLength": 2
   },
-  "generatingModelId": "A-LOANDEFAULTNEW-uXiClmlL-8SBtg6C5-s1-pp1-m1",
+  "partSource": "ACTIVE_VERSION",
+  "generatingModelId": "A-LOANDEFAULTNEW-TcU0JfzB-7xVXQ0jg-s1-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -395,25 +445,25 @@
         "max_cat_safety": 200
       },
       "int_rate": {
-        "min_samples": 10,
-        "missing_impute_with": "MODE",
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
         "role": "INPUT",
-        "dummy_drop": "NONE",
-        "dummy_clip": "MAX_NB_CATEGORIES",
-        "cumulative_proportion": 0.95,
         "sendToInput": "main",
         "customHandlingCode": "",
-        "type": "CATEGORY",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
-        "missing_handling": "NONE",
-        "category_handling": "DUMMIFY",
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
         "state": {
           "autoModifiedByDSS": false,
-          "recordedMeaning": "Text",
+          "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "max_nb_categories": 100,
-        "max_cat_safety": 200
+        "impute_constant_value": 0.0
       },
       "mths_since_last_delinq": {
         "rescaling": "AVGSTD",
@@ -889,7 +939,7 @@
       },
       {
         "name": "int_rate",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "installment",
@@ -1023,6 +1073,7 @@
     "userModified": false
   },
   "splitParams": {
+    "testOnLargerValues": true,
     "instanceIdRefresher": 0,
     "ssdSeed": 1337,
     "nFolds": 5,
@@ -1052,10 +1103,10 @@
     "kfold": false
   },
   "script": {
+    "contextProjectKey": "LOANDEFAULTNEW",
     "columnsSelection": {
       "mode": "ALL"
     },
-    "analysisColumnData": {},
     "explorationSampling": {
       "_refreshTrigger": 0,
       "selection": {
@@ -1079,20 +1130,21 @@
       "autoRefreshSample": false
     },
     "explorationFilters": [],
-    "sorting": [],
     "exploreUIParams": {},
-    "globalSearchQuery": "",
-    "coloring": {
-      "scheme": "MEANING_AND_STATUS",
-      "individualColumns": [],
-      "valueColoringMode": "HASH"
-    },
     "steps": [],
     "maxProcessedMemTableBytes": -1,
     "previewMode": "ALL_ROWS",
     "vizSampling": {
       "_refreshTrigger": 0,
       "autoRefreshSample": false
+    },
+    "analysisColumnData": {},
+    "sorting": [],
+    "globalSearchQuery": "",
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
     }
   },
   "sparkParams": {

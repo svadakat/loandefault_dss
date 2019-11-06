@@ -2,9 +2,19 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction (RANDOM_FOREST_CLASSIFICATION) on Lendingclub_training_prepared",
-  "activeVersion": "1572380219299",
+  "activeVersion": "1573074812566",
   "conditionalOutputs": [],
-  "lastExportedFrom": "A-LOANDEFAULTNEW-uXiClmlL-8SBtg6C5-s1-pp1-m1",
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "lastExportedFrom": "A-LOANDEFAULTNEW-TcU0JfzB-7xVXQ0jg-s1-pp1-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -67,6 +77,10 @@
     "predictionType": "BINARY_CLASSIFICATION",
     "targetVariable": "LoanDefault_Indicator",
     "weight": {},
+    "time": {
+      "enabled": false,
+      "ascending": true
+    },
     "calibration": {
       "calibrationMethod": "NO_CALIBRATION"
     },
@@ -85,6 +99,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -102,6 +117,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -119,6 +135,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -137,6 +154,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -159,6 +177,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -236,11 +255,13 @@
           5
         ],
         "distance_weighting": false,
+        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
+        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -537,6 +558,7 @@
         "checkpoint_interval": 10
       },
       "custom_python": [],
+      "plugin_python": {},
       "keras": {
         "epochs": 10,
         "batchSize": 32,
@@ -592,7 +614,7 @@
     "backendType": "PY_MEMORY",
     "maxConcurrentModelTraining": 2,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "USE_BUILTIN_MODE"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
@@ -654,14 +676,35 @@
       "explorationFilters": [],
       "previewMode": "ALL_ROWS"
     },
-    "predictionDisplayCharts": []
+    "predictionDisplayCharts": [],
+    "partitionedModel": {
+      "enabled": false,
+      "ssdSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      }
+    }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572380238401
+    "lastModifiedOn": 1573074812654
   },
   "creationTag": {
     "versionNumber": 0,
