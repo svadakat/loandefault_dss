@@ -115,7 +115,7 @@
             "numParams": {
               "emptyBinsMode": "ZEROS"
             },
-            "maxValues": 20,
+            "maxValues": 24,
             "generateOthersCategory": true,
             "oneTickPerBin": false,
             "filters": [],
@@ -135,6 +135,17 @@
                 "type": "AGGREGATION",
                 "measureIdx": 0,
                 "label": "Count of records, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of LoanDefault_Indicator, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of LoanDefault_Indicator, ascending",
                 "sortAscending": true
               }
             ],
@@ -156,6 +167,17 @@
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "LoanDefault_Indicator",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis2",
+            "displayType": "line",
             "computeMode": "NORMAL",
             "computeModeDim": 0
           }
@@ -237,7 +259,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAfElEQVRoQ+3aMQ2AUBAEUVCCFnr8oAE/9GjBCaEjwcH8dw52Z7LVzdNgN4+Qd9nP6815H9sqcJE4wkWq30wIIxxrgNIxoL84CCMca4DSMaBGi9KUjjVA6RhQK01pSscaoHQMqJWmNKVjDVA6BtRKU5rS4QaG+PH48hsu8AOG+pApdUpcgwAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB20lEQVRoQ2NkGGGAcTj7V758y36Q/x52+jjC/DmsPLzu6EvLIGvx4zDPDXsPbzz3WsrfSPTZiPEwyKOrrvxnC9Nh/AViD/sYBnly7bEXlcFWEu0jxsPIhfCIiOFRDw/nagm9TTGapBkYGIZVw2M0hod703I0hodzDK899Foy2E70+Yiph9cef9EcbClRO2I8/P//f0ZGRsb/I8bD2AYyRhsew7Xhse7Yc/sgK8mDIyaG1x1/Xh5kKdk5Yjw8ooZ4aFZKrznx3CvEQnIbvYd5////z8TIyPiPGHtHk/RwLaXplodXn3hZEmoh3oMtua09/nJ+sKV4Ija5bdtus3t5qf4kJpmSooYqSXrN8eeZIZaS00mxeO3xF63BlhLVpOihhlqqeJhYh6xadYUtLEwHPCCODaw59kwjxErqBiHzdl58we2uL/GVkDqKmpb7r7zicdQR+0KOJQOhZ+3R5yHB1pJrRgcAqD0AsO7oC7Ega4lXAxGrxNhJ9Ty849hHIQ8r/ncgy9cdf5EXZCkxCZ9D1h19kRpkLTGbGMcSUrP2xMusYAvxafjUUd3DhByFS37V/lc8YY60LyMGjYfJDShs+vCV4sPSw/iqI5jcsF3yQEzKGdZTLdgCYMR5GACn2gA4D2ZguAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
