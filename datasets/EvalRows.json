@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572379488939
+    "lastModifiedOn": 1573074912200
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,7 +100,7 @@
       },
       {
         "name": "int_rate",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "installment",
