@@ -1,7 +1,17 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "Lendingclub_training_prepared",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
+      }
+    ]
   },
   "exposedObjects": {
     "objects": []
@@ -22,7 +32,9 @@
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
-      "pruneBeforeSparkPipelines": true
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true
     },
     "limitsSettings": {
       "memSampleBytes": {
@@ -85,7 +97,23 @@
     "cluster": {
       "clusterMode": "INHERIT"
     },
-    "path": "/"
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "nbReplicas": 1
+      }
+    }
   },
   "name": "LoanDefaultNew",
   "projectStatus": "Sandbox",
@@ -142,6 +170,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1573075887870
   },
   "creationTag": {
     "versionNumber": 0,
