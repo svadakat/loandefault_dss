@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1573051171441
+    "lastModifiedOn": 1573051244669
   },
   "creationTag": {
     "versionNumber": 0,
@@ -68,6 +68,26 @@
       },
       {
         "name": "recall",
+        "type": "double"
+      },
+      {
+        "name": "auc",
+        "type": "double"
+      },
+      {
+        "name": "f1",
+        "type": "double"
+      },
+      {
+        "name": "accuracy",
+        "type": "double"
+      },
+      {
+        "name": "logLoss",
+        "type": "double"
+      },
+      {
+        "name": "lift",
         "type": "double"
       }
     ],
