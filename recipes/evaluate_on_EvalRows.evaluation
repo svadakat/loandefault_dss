@@ -16,7 +16,10 @@
   "outputProbaPercentiles": false,
   "outputProbabilities": true,
   "forceOriginalEngine": false,
-  "metrics": [],
+  "metrics": [
+    "precision",
+    "recall"
+  ],
   "batchSize": 100,
   "forcedClassifierThreshold": 0,
   "overrideModelSpecifiedThreshold": false,
