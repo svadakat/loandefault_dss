@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 10,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -37,11 +37,11 @@
   "name": "Demo",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1573076296475
+    "lastModifiedOn": 1573076304315
   },
   "creationTag": {
     "versionNumber": 0,
