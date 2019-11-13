@@ -903,7 +903,7 @@
     "gbt_classification": {
       "deviance": true,
       "exponential": false,
-      "enabled": false,
+      "enabled": true,
       "n_estimators": [
         100
       ],
