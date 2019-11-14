@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1573670243841
+    "lastModifiedOn": 1573764191974
   },
   "checklists": {
     "checklists": []
@@ -24,6 +24,7 @@
     {
       "id": "nEggOhyh",
       "type": "ds_modified",
+      "name": "NewScoringData",
       "delay": 900,
       "active": true,
       "params": {
