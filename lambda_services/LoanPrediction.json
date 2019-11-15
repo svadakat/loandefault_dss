@@ -1,5 +1,16 @@
 {
-  "endpoints": [],
+  "name": "LoanPrediction",
+  "endpoints": [
+    {
+      "modelRef": "15QScSFD",
+      "useJava": true,
+      "testQueries": [],
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "id": "Score",
+      "type": "STD_PREDICTION"
+    }
+  ],
   "publicAccess": true,
   "authRealm": {
     "queryKeys": []
