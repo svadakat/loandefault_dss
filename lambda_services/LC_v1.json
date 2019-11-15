@@ -1,0 +1,22 @@
+{
+  "endpoints": [
+    {
+      "modelRef": "15QScSFD",
+      "useJava": true,
+      "testQueries": [],
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "id": "LC_EP_v1",
+      "type": "STD_PREDICTION"
+    }
+  ],
+  "publicAccess": true,
+  "authRealm": {
+    "queryKeys": []
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
