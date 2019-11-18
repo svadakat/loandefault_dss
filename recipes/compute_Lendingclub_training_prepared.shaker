@@ -82,6 +82,65 @@
         "matching": "SUBSTRING"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Debt Consolidation Loan",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "debt consolidation",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "Debt consolidation",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "Consolidation Loan",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "Consolidate",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "DEBT CONSOLIDATION",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "Credit Consolidation",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "debt_consolidation",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "Debt consolidation loan",
+            "to": "Debt Consolidation"
+          },
+          {
+            "from": "debt consolidation loan",
+            "to": "Debt Consolidation"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "title"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
