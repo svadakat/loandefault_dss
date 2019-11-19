@@ -1,0 +1,29 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "15QScSFD"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Full report of model Prediction (RANDOM_FOREST_CLASSIFICATION) on Lendingclub_training_prepared",
+  "dashboardCreationId": "ZCaf0Ho",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1574184164765
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1574184164765
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
