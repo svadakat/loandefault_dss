@@ -1,5 +1,16 @@
 {
-  "endpoints": [],
+  "name": "demo",
+  "endpoints": [
+    {
+      "modelRef": "15QScSFD",
+      "useJava": true,
+      "testQueries": [],
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "id": "test",
+      "type": "STD_PREDICTION"
+    }
+  ],
   "publicAccess": true,
   "authRealm": {
     "queryKeys": []
