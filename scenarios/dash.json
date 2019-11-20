@@ -5,11 +5,11 @@
   "name": "dash",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574281316310
+    "lastModifiedOn": 1574281340024
   },
   "checklists": {
     "checklists": []
@@ -23,7 +23,30 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "refresh_chart_cache_J1WqVAo",
+        "type": "refresh_chart_cache",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "params": {
+          "force": false,
+          "dashboards": [
+            {
+              "smartName": "J1WqVAo",
+              "name": "test"
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
