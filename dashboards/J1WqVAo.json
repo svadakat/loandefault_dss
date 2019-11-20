@@ -3,30 +3,7 @@
     {
       "id": "ovindM9",
       "grid": {
-        "tiles": [
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 3,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "CONTRIBUTION_CHARTS",
-              "summaryChart": "commits",
-              "timeSpan": "year",
-              "contributorsChart": "commits"
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "iAhu0md",
-            "insightType": "project_activity",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          }
-        ]
+        "tiles": []
       },
       "showTitle": false
     }
@@ -36,11 +13,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574280841927
+    "lastModifiedOn": 1574280880984
   },
   "creationTag": {
     "versionNumber": 0,
