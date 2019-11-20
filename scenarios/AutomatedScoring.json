@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574116016867
+    "lastModifiedOn": 1574278341411
   },
   "checklists": {
     "checklists": []
