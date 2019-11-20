@@ -7,21 +7,22 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
+              "top": 0,
+              "left": 0,
+              "width": 10,
+              "height": 5
             },
-            "clickAction": "OPEN_INSIGHT",
+            "clickAction": "OPEN_OTHER_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
-              "showLegend": false,
+              "showLegend": true,
               "showTooltips": true,
               "autoPlayAnimation": true
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Loan default rate by Interest Rate",
             "insightId": "YPc08tc",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -37,11 +38,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574280892727
+    "lastModifiedOn": 1574281009710
   },
   "creationTag": {
     "versionNumber": 0,
