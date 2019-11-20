@@ -38,11 +38,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574281009710
+    "lastModifiedOn": 1574281014662
   },
   "creationTag": {
     "versionNumber": 0,
