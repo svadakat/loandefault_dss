@@ -12,7 +12,7 @@
               "width": 10,
               "height": 5
             },
-            "clickAction": "OPEN_OTHER_INSIGHT",
+            "clickAction": "OPEN_INSIGHT",
             "tileParams": {
               "showXAxis": true,
               "showYAxis": true,
@@ -38,11 +38,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574281014662
+    "lastModifiedOn": 1574281019514
   },
   "creationTag": {
     "versionNumber": 0,
