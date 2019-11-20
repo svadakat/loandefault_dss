@@ -30,27 +30,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 8,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary"
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "nXVgZPA",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
+              "top": 5,
+              "left": 8,
               "width": 2,
               "height": 2
             },
@@ -79,11 +60,11 @@
   "name": "Demo",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574271505715
+    "lastModifiedOn": 1574271526084
   },
   "creationTag": {
     "versionNumber": 0,
