@@ -79,11 +79,11 @@
   "name": "Demo",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574271505428
+    "lastModifiedOn": 1574271505715
   },
   "creationTag": {
     "versionNumber": 0,
