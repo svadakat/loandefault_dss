@@ -2,27 +2,27 @@
   "data": [
     [
       "1",
-      "1"
+      "2"
     ],
     [
       "2",
-      "1"
+      "2"
     ],
     [
       "3",
-      "1"
+      "2"
     ],
     [
       "3",
-      "1"
+      "2"
     ],
     [
       "4",
-      "1"
+      "2"
     ],
     [
       "5",
-      "1"
+      "2"
     ],
     [
       null,
@@ -34,6 +34,6 @@
       {"name":"x","type":"string"},
       {"name":"y","type":"string"}
     ],
-    "userModified": false
+    "userModified": true
   }
 }
