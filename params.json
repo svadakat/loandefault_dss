@@ -197,11 +197,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574259215183
+    "lastModifiedOn": 1574259327193
   },
   "creationTag": {
     "versionNumber": 0,
@@ -210,6 +210,7 @@
     },
     "lastModifiedOn": 1572372585227
   },
+  "description": "This project creates a model to predict the likelihood of loan default",
   "shortDesc": "The project *LoanDefaultNew* was created by Administrator on Oct 29th 2019",
   "tags": [],
   "customFields": {},
@@ -228,21 +229,7 @@
           },
           {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1572372585227,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](projects/LOANDEFAULTNEW/datasets/new/)",
-            "createdOn": 1572372585227,
-            "createdBy": "admin",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
+            "text": "@jane to review project ",
             "createdOn": 1572372585227,
             "createdBy": "admin",
             "stateChangedOn": 0
