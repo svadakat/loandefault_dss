@@ -666,7 +666,7 @@
         "colorOptions": {
           "singleColor": "#2678B1",
           "transparency": 0.6,
-          "colorPalette": "dku_pastel2",
+          "colorPalette": "dku_dss_next",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -702,7 +702,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB30lEQVRoQ+2YsU7DMBCGzx0qVUKqYWSiExILAzMSU5IX6AKCKTEiK2/BAwBNOiHB0gco6YrEI7AhdoaSsiAh1CCLJYpK6nMdx03SOb77v/vvLqkJ1OxHasYLDXAVHY+ZMwAgrzQYX9XC4Rmzj7tB9MDNrAVwumsb4LwZ/psFABo8nq/rrKMc1gnMc6kqbDqWscAqOyhtFApYpYgiYol0BRo4dq0eHU7eihCcjikiXkYDCljnDE8962QrnNzLQGXPxMy+pkHko9/DMbMYQOtA1TJRASPSFTPPfuHPdcNoD+WwaoG64nHghJAnbhQKeOo5fovAvqkO/1dA6dcSD5j0+20yGn3rckd1noUO8xbg/Z5N9u4fbbR/Oqc0GN+ICtG56EQ0oYBNEy8CmH0GNcMxs58hgW0aRjsyyUw4gwI2QfCqGioD/Hnh7M7nySUdRCyvKJUB5vuFJMnhomVb2QsAke9vlMOqt7SIwFVndsUtXbMbj7xql+GWjPuolpZJYNoZFLDqGS6jGMqAdbV0+s+8TMFQwKbPsEjRlQHLVPvDtc82h9GdzFnZM6UCf7lWr6PhQnDpl5ZIa8hWuOxzKIdjz7kFAmTdrniWOly2C0XmRzlcpBBdsRtgXZUuK0/tHP4FrkC6KVYXK3MAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABzklEQVRoQ+2Zz0rDQBDGv0XUi0/gqT1kI0Xw4NlXEEygB0WPFXr1LXwA/1wFPQQT0FcQfIIiTUT0OQSpbL1E0sadzSRZk/Scnfl+881M0kSgZT/RMl50wI10PEyuAbzBl+ftcDhMDuHLO2VmO4BTbdsB587wzywAvjz9r7NOc7hKYJWLq7CpWPYCc7ZQyigaMKeIMmJpdAUdOJj2Mdx6L0Pvr5ga4k000ICrnOHo9Qiec2sClTkTJhfw5Zh+H76PRxBil22ZsNCkgizriih5mV/lyQHNYW6BVcVTwDM8KaNowGE8BsSOtQ4vK6DxbUkFDCZrGG5/VmUOd57FDqsW8OQgkyyYbGB1/RgHzqW2kCoXnYYoGrBl4jX4MpfQZjhKnoHZJjy3Z5LMhjM0YBsUF9TQHOCHqYuvlTN4ziivJs0BVvtFYG/hsk1VoDnACkrj+ZsGzL2lNQQWHNmCW5obmJtGIx7N4byANbilwVfQYZMMlp2hOdy6ls4DrqqlU3/mTZqH5rDtM6xRdD5gk3JH8Qk898bkqOmZeoEfP/rY75X/QvDPJy2N1jCtcN3naA6HydX8AxzXF4Ea6GnANQjkTtkBc1fUtnidw7Y5wq3nG/1AiSmzWwPaAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -735,7 +735,7 @@
         "_refreshTrigger": 2
       },
       "def": {
-        "type": "grouped_columns",
+        "type": "grouped_xy",
         "variant": "normal",
         "name": "New chart",
         "userEditedName": false,
