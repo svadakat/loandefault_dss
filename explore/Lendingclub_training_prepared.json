@@ -569,7 +569,7 @@
       "def": {
         "type": "scatter",
         "variant": "normal",
-        "name": "purpose vs annual_inc",
+        "name": "grade vs int_rate",
         "userEditedName": false,
         "genericDimension0": [],
         "genericDimension1": [],
@@ -580,7 +580,7 @@
         "yDimension": [],
         "uaXDimension": [
           {
-            "column": "purpose",
+            "column": "grade",
             "type": "ALPHANUM",
             "treatAsAlphanum": false,
             "sortBy": "NATURAL",
@@ -590,7 +590,7 @@
         ],
         "uaYDimension": [
           {
-            "column": "annual_inc",
+            "column": "int_rate",
             "type": "NUMERICAL",
             "treatAsAlphanum": false,
             "sortBy": "NATURAL",
@@ -598,11 +598,19 @@
             "isA": "ua"
           }
         ],
-        "uaSize": [],
+        "uaSize": [
+          {
+            "column": "loan_amnt",
+            "type": "NUMERICAL",
+            "treatAsAlphanum": false,
+            "isA": "ua",
+            "adminLevel": 0
+          }
+        ],
         "uaShape": [],
         "uaColor": [
           {
-            "column": "title",
+            "column": "term",
             "type": "ALPHANUM",
             "treatAsAlphanum": false,
             "isA": "ua",
@@ -619,7 +627,22 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "home_ownership",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "RENT": true,
+              "MORTGAGE": true,
+              "OWN": true,
+              "NONE": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -643,7 +666,7 @@
         "colorOptions": {
           "singleColor": "#2678B1",
           "transparency": 0.6,
-          "colorPalette": "dku_dss_next",
+          "colorPalette": "default",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -679,7 +702,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABIElEQVRoQ+2YsQ3CMBBFCQWClo4FLiUSg2DDEowQR4gKodgjsATYDIJEmVuAjhZEATSENnLBGeNLm5P/vf+sFMk6iT1ZYrwdBv5X46DcFrVYsOF/NdxwseFvGIZiN0YzP33jbN8z2bBvY7HNs+HYjPnuy4Z9G4ttng3HZsx3Xzbs21hs82w4NmO++7Jh38ZimycxDOVeYjWzv1AOCfAvgAb945GXblpX4kBZRF7s17WZrYIYhtJusJJLSuCwhpW71FoMkwEGZe+oZY8SGJQ7ohYTkisNyl1Ri0EDCMo+UUuS7E9m4c5oxIgkFAp7QyP7QYHfJVMBP9DIbjrAyt1Qi3QMU36c2rJIrnTbEpTvGZiy7RBZbDhE65SZbJiy7RBZLyyKVClW4EFgAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABoUlEQVRoQ+2XPUoFMRDHM75CLLWxNIKN4gG8gIW8bKfY2nmDWFrKRrD3CNrugjd58BA1CxYKgnoAiWSX1+hivjZustltM5OZX/6T2QmgxD5IjBcNHhjT8loAzKt8eiXFTQJYgnJGTkfgFO7z4Ev6p4gj8NDLOlqF5e9m0XlNRIoSWMIuIE2howSWsAvo6IF1S1XXLugujc+KCyRgTUe1QQCbNB9b27Du8NHtBG+uvHGWrdoCqfzCAm6a0R1n5ECVuO16cMC2ILp+wQHbNqOYgW84I8e6AKZ2wSlsCmBq/y/AskyXYJk+5vufpgl2be8EjGnxylm2rkqqHgMFnPPL6YvK1ve6I3D5gRB65ozs/pUopuVMgJhVeXboG0i1vzVwM7yLE4TggTOyowCuXzc6I6MqYdd1a+DmxVK8A8D8KSd7iQDbPcJdVXLxd1LYJXBfvm3AgGl5zxnZ6ispn3F/AdcdFaHtihGl+r7HQB/grVAbtPiqWDbxEbDvPZUq9p1g1/FH4K5PNLT9WhWOsRnpHuxY0ronFavdqHCsyunmnZzC39n0gilF5jMVAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
