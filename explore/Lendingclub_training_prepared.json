@@ -284,7 +284,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACk0lEQVRoQ2NkGGGAkZr+zdi/XOEv8//5s+2iHKlpLqlm/elLjGcpmr8Qm75h6WF8AUTQw6mHlu0HGUBMrA2WGB71MFIIjMYwenIYTdI4MggoYJj/MibiK6VJCTxSS2Zi1VMtSY96GEuQj8YwsemQiupomqTRY5RWMfyrJzGFrWT+HFC4/O1NKmAunjcBVxjRxMPolsEaLbTyMCkJYNTD5NbDyKU0oRAnpplKyIy/vUmTmIvn5RFShy5PlxjGlcRJdSw11A+Ih2GdEVCqoHf+HjIe/t+XrMJYNPcOpbFMsYdTDy1bzfiXYeJ/ZoZmWNOSGEeBYnZIxjDI0UxMjKX//v3vppaHf/TFqHAULSE5Nv/3J1szFs49SnR/GFs9SajupIWH0R38vyvemrFsIV6PEJOqQGpQkvRg9TCxniFGHV4PwwIA3xAPPWKYGI8Qq4ZoD8MMRG80kOvh6Wf3dGUau5TBzNuyvOnORmmVx9RolJCdh5FjmBIP63x4w39FQOQjyAyLN89ETohIvYGV0rNu7/Fj+MDgmGbqUogvJREbg4TUkRzD2AykpJSmdysMq4f///9/aY59dD62GKaXhwnVDoRiEpc8Vg8jN/2IMRgUw+x//vT++s8SDxrTAumxf/VE7KCYzCtc+mFJGlcMDzoPRzy8obhCXuM+yMEG7170XRCSKCKn4UEoQKldiBEdw3x/frF8YmH7Q+skTes8TbSH8cUENQstbPYw/v83e5Z9zDJCqYEY+SHj4f+MTKnoHQ5iPIiuZtTDyA2M9EPL9v8jIhjpkaSRYxhXI4gIp2LvPJBTLZHbPSTKkf//zcbmYXIKuCGZpPHV7YQCcFh5GNmzuOpvgkM8hEJsqMmPenioxRip7gUA0q4KVlU35joAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACZUlEQVRoQ+2ZyytEcRTHfyePFGIir4XyF1gQNkaKbCzslFtiZEI2HmVnL6+UVzOMhUbZWbAiwsZzYa/EwqMIRQl19Jvcum537r0/91wzd9y7mprfnDmf3/mec37nd4H9swcoeTv3Vna4vaC3pZbSLqUtF1i9myJRE1lLGTURW4YRFoEQWSviJOVaF9iVtMnKK8tZr0rzNW9Zn43Lpa2vlDIVsUUm6XgBxnFfKQyEzqJtQuIBz3Z7oGfuMSGBP8baR1IGl4biRtLqNpWwOazecfmo6QKLaJForS1FS8+3hGxLLrBiB3iE056T1xljR4yxCmV+/8VoGRNJ/wYYEQEA0GoqWwb274anAzVSr/KkZSTp3wBbBZV/bxmYg3JZUgLjREcF9C9yyZM/P4C15lmjGZcaOHCyPQz9C/ucFCd9EvSFwpTUcQds932YLrB/N7yFAElGIx+1pCkjqralC6yVl+oIUEs6phGmAi57vPOcevIjI1v97VXTZkHxmrIP42hXnr/Su/rnfVhruok+V+JdpLAwyLci6WiDhl2y1pQ0Q1wL1khTZluNHcCR/wYMBaulZUp4beDvtwciwCMbM8fnmZ4X2bmqh5ucg5zCB7Wz6qOl3igZc+CSl6f0i4zsyAVc5f117mFu0T3/PH+ytdpVXtdsJhJGwD9sxHOEzarBBdaTBWCIIfgoWxVZDtsVYQ78CdiRjLAIjF3y/Ql4W9rMpI/WGkcBywBWIu5IYCvgjgZWShYYvge8UoOR1F1gpVzMFiLKk5a6DyuLlm5BZ/iODFJlX6LlueGNh5FEnPa9C+y0iIn6+wVBRb5Hi0zlswAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_TOP"
@@ -598,7 +598,15 @@
             "isA": "ua"
           }
         ],
-        "uaSize": [],
+        "uaSize": [
+          {
+            "column": "funded_amnt",
+            "type": "NUMERICAL",
+            "treatAsAlphanum": false,
+            "isA": "ua",
+            "adminLevel": 0
+          }
+        ],
         "uaShape": [],
         "uaColor": [
           {
@@ -619,7 +627,22 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [],
+        "filters": [
+          {
+            "filterType": "ALPHANUM_FACET",
+            "column": "home_ownership",
+            "columnType": "ALPHANUM",
+            "isA": "filter",
+            "excludedValues": {
+              "RENT": true,
+              "MORTGAGE": true,
+              "OWN": true,
+              "NONE": true,
+              "___dku_no_value___": true
+            },
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -642,8 +665,8 @@
         "animationRepeat": true,
         "colorOptions": {
           "singleColor": "#2678B1",
-          "transparency": 0.75,
-          "colorPalette": "dku_dss_next",
+          "transparency": 0.6,
+          "colorPalette": "dku_pastel2",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -679,7 +702,124 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABsUlEQVRoQ2NkGGGAcYT5l2HUw8M9xkdjeDSGh1kI0CVJdx21Ui6zPnZ3MIQdXTw8GDwKc8OohwdTbNDCLaMxTItQHUxmjsbwYIoNWrhlNIZpEaqDyczRGB5MsUELt4zGMC1CdTCZORrDVImNdXcuMgSp6MPNWnv7KEOwqjVVzKbQENrE8Lrb+xmCVB0pdBtNtNPEwzzrL/3+EqjHShMXU2goTTzMsO72XoYgVWcK3UYT7VTx8KRtnux5Xtt/wl247vZ/hiBVnGb//x/KzMi4+i9NfETAUKp4GN0OxnW3/v8PUsNpduLOatn57q2Ph66H1940ZQhWP40zhtfdfscQpCoEky8/E8rfabL645D1cO2u+sZmt8Z6mAf8ty7+v9E7Fh7D5tvm/TnplcQCkzfZttzwjFfk+SHr4Z5DvpNK7DbnwTywdE/q/2iX2XAPK2/e+euurzsbTN52xxSjwx4554ash0sORqztsV8RDPOA2uZt/2/5esE9PP+o9f9E66Nw/vFDxkaWdmeHrocHIqbItZMmpTS5jqGHvlEP0yOUB9KO0RgeyNCnh92jMUyPUB5IOwD3mWQpmiqzGAAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB30lEQVRoQ+2YsU7DMBCGzx0qVUKqYWSiExILAzMSU5IX6AKCKTEiK2/BAwBNOiHB0gco6YrEI7AhdoaSsiAh1CCLJYpK6nMdx03SOb77v/vvLqkJ1OxHasYLDXAVHY+ZMwAgrzQYX9XC4Rmzj7tB9MDNrAVwumsb4LwZ/psFABo8nq/rrKMc1gnMc6kqbDqWscAqOyhtFApYpYgiYol0BRo4dq0eHU7eihCcjikiXkYDCljnDE8962QrnNzLQGXPxMy+pkHko9/DMbMYQOtA1TJRASPSFTPPfuHPdcNoD+WwaoG64nHghJAnbhQKeOo5fovAvqkO/1dA6dcSD5j0+20yGn3rckd1noUO8xbg/Z5N9u4fbbR/Oqc0GN+ICtG56EQ0oYBNEy8CmH0GNcMxs58hgW0aRjsyyUw4gwI2QfCqGioD/Hnh7M7nySUdRCyvKJUB5vuFJMnhomVb2QsAke9vlMOqt7SIwFVndsUtXbMbj7xql+GWjPuolpZJYNoZFLDqGS6jGMqAdbV0+s+8TMFQwKbPsEjRlQHLVPvDtc82h9GdzFnZM6UCf7lWr6PhQnDpl5ZIa8hWuOxzKIdjz7kFAmTdrniWOly2C0XmRzlcpBBdsRtgXZUuK0/tHP4FrkC6KVYXK3MAAAAASUVORK5CYII\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 2
+      },
+      "def": {
+        "type": "grouped_columns",
+        "variant": "normal",
+        "name": "New chart",
+        "userEditedName": false,
+        "genericDimension0": [],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
