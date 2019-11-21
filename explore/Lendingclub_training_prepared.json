@@ -284,7 +284,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACZUlEQVRoQ+2ZyytEcRTHfyePFGIir4XyF1gQNkaKbCzslFtiZEI2HmVnL6+UVzOMhUbZWbAiwsZzYa/EwqMIRQl19Jvcum537r0/91wzd9y7mprfnDmf3/mec37nd4H9swcoeTv3Vna4vaC3pZbSLqUtF1i9myJRE1lLGTURW4YRFoEQWSviJOVaF9iVtMnKK8tZr0rzNW9Zn43Lpa2vlDIVsUUm6XgBxnFfKQyEzqJtQuIBz3Z7oGfuMSGBP8baR1IGl4biRtLqNpWwOazecfmo6QKLaJForS1FS8+3hGxLLrBiB3iE056T1xljR4yxCmV+/8VoGRNJ/wYYEQEA0GoqWwb274anAzVSr/KkZSTp3wBbBZV/bxmYg3JZUgLjREcF9C9yyZM/P4C15lmjGZcaOHCyPQz9C/ucFCd9EvSFwpTUcQds932YLrB/N7yFAElGIx+1pCkjqralC6yVl+oIUEs6phGmAi57vPOcevIjI1v97VXTZkHxmrIP42hXnr/Su/rnfVhruok+V+JdpLAwyLci6WiDhl2y1pQ0Q1wL1khTZluNHcCR/wYMBaulZUp4beDvtwciwCMbM8fnmZ4X2bmqh5ucg5zCB7Wz6qOl3igZc+CSl6f0i4zsyAVc5f117mFu0T3/PH+ytdpVXtdsJhJGwD9sxHOEzarBBdaTBWCIIfgoWxVZDtsVYQ78CdiRjLAIjF3y/Ql4W9rMpI/WGkcBywBWIu5IYCvgjgZWShYYvge8UoOR1F1gpVzMFiLKk5a6DyuLlm5BZ/iODFJlX6LlueGNh5FEnPa9C+y0iIn6+wVBRb5Hi0zlswAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACk0lEQVRoQ2NkGGGAkZr+zdi/XOEv8//5s+2iHKlpLqlm/elLjGcpmr8Qm75h6WF8AUTQw6mHlu0HGUBMrA2WGB71MFIIjMYwenIYTdI4MggoYJj/MibiK6VJCTxSS2Zi1VMtSY96GEuQj8YwsemQiupomqTRY5RWMfyrJzGFrWT+HFC4/O1NKmAunjcBVxjRxMPolsEaLbTyMCkJYNTD5NbDyKU0oRAnpplKyIy/vUmTmIvn5RFShy5PlxjGlcRJdSw11A+Ih2GdEVCqoHf+HjIe/t+XrMJYNPcOpbFMsYdTDy1bzfiXYeJ/ZoZmWNOSGEeBYnZIxjDI0UxMjKX//v3vppaHf/TFqHAULSE5Nv/3J1szFs49SnR/GFs9SajupIWH0R38vyvemrFsIV6PEJOqQGpQkvRg9TCxniFGHV4PwwIA3xAPPWKYGI8Qq4ZoD8MMRG80kOvh6Wf3dGUau5TBzNuyvOnORmmVx9RolJCdh5FjmBIP63x4w39FQOQjyAyLN89ETohIvYGV0rNu7/Fj+MDgmGbqUogvJREbg4TUkRzD2AykpJSmdysMq4f///9/aY59dD62GKaXhwnVDoRiEpc8Vg8jN/2IMRgUw+x//vT++s8SDxrTAumxf/VE7KCYzCtc+mFJGlcMDzoPRzy8obhCXuM+yMEG7170XRCSKCKn4UEoQKldiBEdw3x/frF8YmH7Q+skTes8TbSH8cUENQstbPYw/v83e5Z9zDJCqYEY+SHj4f+MTKnoHQ5iPIiuZtTDyA2M9EPL9v8jIhjpkaSRYxhXI4gIp2LvPJBTLZHbPSTKkf//zcbmYXIKuCGZpPHV7YQCcFh5GNmzuOpvgkM8hEJsqMmPenioxRip7gUA0q4KVlU35joAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_TOP"
@@ -517,6 +517,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
@@ -634,6 +635,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
