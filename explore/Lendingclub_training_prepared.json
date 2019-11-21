@@ -598,19 +598,11 @@
             "isA": "ua"
           }
         ],
-        "uaSize": [
-          {
-            "column": "funded_amnt",
-            "type": "NUMERICAL",
-            "treatAsAlphanum": false,
-            "isA": "ua",
-            "adminLevel": 0
-          }
-        ],
+        "uaSize": [],
         "uaShape": [],
         "uaColor": [
           {
-            "column": "home_ownership",
+            "column": "title",
             "type": "ALPHANUM",
             "treatAsAlphanum": false,
             "isA": "ua",
@@ -627,22 +619,7 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [
-          {
-            "filterType": "ALPHANUM_FACET",
-            "column": "home_ownership",
-            "columnType": "ALPHANUM",
-            "isA": "filter",
-            "excludedValues": {
-              "RENT": true,
-              "MORTGAGE": true,
-              "OWN": true,
-              "NONE": true,
-              "___dku_no_value___": true
-            },
-            "explicitExclude": false
-          }
-        ],
+        "filters": [],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
@@ -702,124 +679,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABzklEQVRoQ+2Zz0rDQBDGv0XUi0/gqT1kI0Xw4NlXEEygB0WPFXr1LXwA/1wFPQQT0FcQfIIiTUT0OQSpbL1E0sadzSRZk/Scnfl+881M0kSgZT/RMl50wI10PEyuAbzBl+ftcDhMDuHLO2VmO4BTbdsB587wzywAvjz9r7NOc7hKYJWLq7CpWPYCc7ZQyigaMKeIMmJpdAUdOJj2Mdx6L0Pvr5ga4k000ICrnOHo9Qiec2sClTkTJhfw5Zh+H76PRxBil22ZsNCkgizriih5mV/lyQHNYW6BVcVTwDM8KaNowGE8BsSOtQ4vK6DxbUkFDCZrGG5/VmUOd57FDqsW8OQgkyyYbGB1/RgHzqW2kCoXnYYoGrBl4jX4MpfQZjhKnoHZJjy3Z5LMhjM0YBsUF9TQHOCHqYuvlTN4ziivJs0BVvtFYG/hsk1VoDnACkrj+ZsGzL2lNQQWHNmCW5obmJtGIx7N4byANbilwVfQYZMMlp2hOdy6ls4DrqqlU3/mTZqH5rDtM6xRdD5gk3JH8Qk898bkqOmZeoEfP/rY75X/QvDPJy2N1jCtcN3naA6HydX8AxzXF4Ea6GnANQjkTtkBc1fUtnidw7Y5wq3nG/1AiSmzWwPaAAAAAElFTkSuQmCC",
-        "disableSafetyLimits": false,
-        "useLiveProcessingIfAvailable": true,
-        "legendPlacement": "OUTER_RIGHT"
-      },
-      "maxDataBytes": 157286400
-    },
-    {
-      "copySelectionFromScript": true,
-      "engineType": "LINO",
-      "refreshableSelection": {
-        "selection": {
-          "useMemTable": false,
-          "filter": {
-            "distinct": false,
-            "enabled": false
-          },
-          "partitionSelectionMethod": "ALL",
-          "latestPartitionsN": 1,
-          "ordering": {
-            "enabled": false,
-            "rules": []
-          },
-          "samplingMethod": "FULL",
-          "maxRecords": -1,
-          "targetRatio": 0.02,
-          "withinFirstN": -1,
-          "maxReadUncompressedBytes": -1
-        },
-        "autoRefreshSample": false,
-        "_refreshTrigger": 2
-      },
-      "def": {
-        "type": "grouped_xy",
-        "variant": "normal",
-        "name": "New chart",
-        "userEditedName": false,
-        "genericDimension0": [],
-        "genericDimension1": [],
-        "facetDimension": [],
-        "animationDimension": [],
-        "genericMeasures": [],
-        "xDimension": [],
-        "yDimension": [],
-        "uaXDimension": [],
-        "uaYDimension": [],
-        "uaSize": [],
-        "uaShape": [],
-        "uaColor": [],
-        "uaTooltip": [],
-        "groupDimension": [],
-        "xMeasure": [],
-        "yMeasure": [],
-        "colorMeasure": [],
-        "sizeMeasure": [],
-        "geometry": [],
-        "tooltipMeasures": [],
-        "boxplotBreakdownDim": [],
-        "boxplotValue": [],
-        "filters": [],
-        "axis1LogScale": false,
-        "axis2LogScale": false,
-        "includeZero": true,
-        "smoothing": true,
-        "showLegend": true,
-        "showXAxis": false,
-        "showInChartValues": false,
-        "showInChartLabels": true,
-        "strokeWidth": 1,
-        "fillOpacity": 0.6,
-        "showXAxisLabel": true,
-        "showYAxisLabel": true,
-        "hexbinRadius": 20,
-        "hexbinNumber": 20,
-        "hexbinRadiusMode": "NUM_HEXAGONS",
-        "chartHeight": 200,
-        "singleXAxis": true,
-        "multiTooltips": false,
-        "animationFrameDuration": 3000,
-        "animationRepeat": true,
-        "colorOptions": {
-          "singleColor": "#2678B1",
-          "transparency": 0.75,
-          "colorPalette": "default",
-          "ccScaleMode": "NORMAL",
-          "customPalette": {
-            "id": "__dku_custom__",
-            "name": "Custom Palette",
-            "colors": [],
-            "values": [],
-            "fixedValues": false
-          },
-          "paletteType": "CONTINUOUS",
-          "quantizationMode": "NONE",
-          "numQuantizeSteps": 5,
-          "paletteMiddleValue": 0.0
-        },
-        "bubblesOptions": {
-          "defaultRadius": 5.0,
-          "singleShape": "FILLED_CIRCLE"
-        },
-        "xAxisMode": "NORMAL",
-        "yAxisMode": "NORMAL",
-        "pieOptions": {
-          "donutHoleSize": 54.0
-        },
-        "scatterOptions": {
-          "equalScales": false,
-          "identityLine": false
-        },
-        "mapOptions": {
-          "tilesLayer": "cartodb-positron",
-          "lockSquareGrid": false
-        },
-        "mapGridOptions": {
-          "gridLonDeg": 0.5,
-          "gridLatDeg": 0.5
-        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABIElEQVRoQ+2YsQ3CMBBFCQWClo4FLiUSg2DDEowQR4gKodgjsATYDIJEmVuAjhZEATSENnLBGeNLm5P/vf+sFMk6iT1ZYrwdBv5X46DcFrVYsOF/NdxwseFvGIZiN0YzP33jbN8z2bBvY7HNs+HYjPnuy4Z9G4ttng3HZsx3Xzbs21hs82w4NmO++7Jh38ZimycxDOVeYjWzv1AOCfAvgAb945GXblpX4kBZRF7s17WZrYIYhtJusJJLSuCwhpW71FoMkwEGZe+oZY8SGJQ7ohYTkisNyl1Ri0EDCMo+UUuS7E9m4c5oxIgkFAp7QyP7QYHfJVMBP9DIbjrAyt1Qi3QMU36c2rJIrnTbEpTvGZiy7RBZbDhE65SZbJiy7RBZLyyKVClW4EFgAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
