@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572379502266
+    "lastModifiedOn": 1574866134363
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1572379502266
   },
-  "tags": [],
+  "tags": [
+    "Model Scoring"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/EvalRows_scored",
