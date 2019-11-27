@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1572376115593
+    "lastModifiedOn": 1574865966833
   },
   "creationTag": {
     "versionNumber": 0,
@@ -40,7 +40,9 @@
     },
     "lastModifiedOn": 1572376115593
   },
-  "tags": [],
+  "tags": [
+    "Model Training"
+  ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "PostgreSQL",
