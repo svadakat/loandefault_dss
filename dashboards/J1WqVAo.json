@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 2,
-              "height": 2
+              "width": 6,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -31,9 +31,9 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 2,
-              "width": 2,
-              "height": 2
+              "left": 6,
+              "width": 6,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -60,11 +60,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574878268315
+    "lastModifiedOn": 1574878556942
   },
   "creationTag": {
     "versionNumber": 0,
