@@ -64,7 +64,7 @@
       "windowLimitMode": "ROWS",
       "windowUpperBound": 0,
       "enablePartitioning": true,
-      "enableOrdering": false,
+      "enableOrdering": true,
       "precedingRows": 0,
       "limitFollowing": false,
       "orders": [
