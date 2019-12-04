@@ -4,6 +4,7 @@
     "enabled": false
   },
   "ntileValues": "10",
+  "keys": [],
   "values": [
     {
       "last": false,
@@ -12,9 +13,11 @@
       "firstLastNotNull": false,
       "column": "id",
       "count": false,
+      "$idx": 0,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -29,29 +32,77 @@
       "first": false
     },
     {
-      "last": false,
       "lagDiff": false,
-      "max": false,
-      "firstLastNotNull": false,
-      "column": "event_type",
-      "count": false,
+      "$idx": 1,
       "lagValues": "1",
       "sum": false,
-      "concat": false,
-      "lead": false,
-      "concatDistinct": false,
+      "type": "string",
       "dateDiffUnit": "DAY",
       "min": false,
-      "countDistinct": false,
       "avg": false,
       "lag": false,
       "leadValues": "1",
       "stddev": false,
-      "value": true,
+      "value": false,
+      "orderColumn": "id",
+      "concatSeparator": ",",
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "event_type",
+      "count": false,
+      "concat": true,
+      "lead": false,
+      "concatDistinct": false,
+      "countDistinct": false,
       "leadDiff": false,
       "first": false
     }
   ],
+  "windows": [
+    {
+      "windowLimitMode": "ROWS",
+      "windowUpperBound": 0,
+      "enablePartitioning": true,
+      "enableOrdering": false,
+      "precedingRows": 0,
+      "limitFollowing": false,
+      "orders": [
+        {
+          "column": "id",
+          "desc": false
+        }
+      ],
+      "limitPreceding": false,
+      "followingRows": 0,
+      "windowLowerBound": 0,
+      "enableLimits": true,
+      "partitioningColumns": [
+        "id"
+      ]
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "event_type_concat",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  },
+  "cumeDist": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -89,25 +140,6 @@
   "ntile": false,
   "rank": false,
   "denseRank": false,
-  "windows": [
-    {
-      "windowUpperBound": 0.0,
-      "enablePartitioning": false,
-      "enableOrdering": false,
-      "precedingRows": 0,
-      "limitFollowing": false,
-      "orders": [],
-      "limitPreceding": false,
-      "followingRows": 0,
-      "windowLowerBound": 0.0,
-      "enableLimits": false
-    }
-  ],
   "rowNumber": false,
-  "computedColumns": [],
-  "postFilter": {
-    "distinct": false,
-    "enabled": false
-  },
-  "cumeDist": false
+  "outputColumnNameOverrides": {}
 }
