@@ -32,7 +32,18 @@
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "EvalTestRemainingCols",
+        "rules": [
+          {
+            "targetProject": "TEST",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "owner": "admin",
@@ -206,11 +217,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1574878254603
+    "lastModifiedOn": 1576588684601
   },
   "creationTag": {
     "versionNumber": 0,
