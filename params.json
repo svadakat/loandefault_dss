@@ -28,6 +28,13 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "Lendingclub_training",
+          "objectType": "DATASET"
+        },
+        "modes": []
       }
     ]
   },
@@ -39,16 +46,6 @@
         "rules": [
           {
             "targetProject": "TEST",
-            "appearOnFlow": true
-          }
-        ]
-      },
-      {
-        "type": "DATASET",
-        "localName": "Lendingclub_training",
-        "rules": [
-          {
-            "targetProject": "DEMO",
             "appearOnFlow": true
           }
         ]
@@ -227,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1578423251276
+    "lastModifiedOn": 1578425845842
   },
   "creationTag": {
     "versionNumber": 0,
