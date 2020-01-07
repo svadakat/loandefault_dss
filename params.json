@@ -49,6 +49,16 @@
             "appearOnFlow": true
           }
         ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "Lendingclub_training",
+        "rules": [
+          {
+            "targetProject": "DEMO",
+            "appearOnFlow": true
+          }
+        ]
       }
     ]
   },
@@ -224,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 31,
+    "versionNumber": 32,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1578425990821
+    "lastModifiedOn": 1578426030310
   },
   "creationTag": {
     "versionNumber": 0,
