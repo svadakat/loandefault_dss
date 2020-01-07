@@ -28,6 +28,13 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "Lendingclub_training",
+          "objectType": "DATASET"
+        },
+        "modes": []
       }
     ]
   },
@@ -217,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1578422259419
+    "lastModifiedOn": 1578422405795
   },
   "creationTag": {
     "versionNumber": 0,
