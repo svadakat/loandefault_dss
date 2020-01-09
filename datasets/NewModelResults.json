@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1578605118177
+    "lastModifiedOn": 1578605126646
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,164 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "loan_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "funded_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "term",
+        "type": "string"
+      },
+      {
+        "name": "int_rate",
+        "type": "double"
+      },
+      {
+        "name": "installment",
+        "type": "double"
+      },
+      {
+        "name": "grade",
+        "type": "string"
+      },
+      {
+        "name": "sub_grade",
+        "type": "string"
+      },
+      {
+        "name": "emp_title",
+        "type": "string"
+      },
+      {
+        "name": "emp_length",
+        "type": "string"
+      },
+      {
+        "name": "home_ownership",
+        "type": "string"
+      },
+      {
+        "name": "annual_inc",
+        "type": "double"
+      },
+      {
+        "name": "verification_status",
+        "type": "string"
+      },
+      {
+        "name": "pymnt_plan",
+        "type": "boolean"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "string"
+      },
+      {
+        "name": "purpose",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "zip_code",
+        "type": "string"
+      },
+      {
+        "name": "addr_state",
+        "type": "string"
+      },
+      {
+        "name": "dti",
+        "type": "double"
+      },
+      {
+        "name": "delinq_2yrs",
+        "type": "bigint"
+      },
+      {
+        "name": "earliest_cr_line",
+        "type": "string"
+      },
+      {
+        "name": "inq_last_6mths",
+        "type": "bigint"
+      },
+      {
+        "name": "mths_since_last_delinq",
+        "type": "bigint"
+      },
+      {
+        "name": "mths_since_last_record",
+        "type": "string"
+      },
+      {
+        "name": "open_acc",
+        "type": "string"
+      },
+      {
+        "name": "pub_rec",
+        "type": "string"
+      },
+      {
+        "name": "revol_bal",
+        "type": "bigint"
+      },
+      {
+        "name": "revol_util",
+        "type": "string"
+      },
+      {
+        "name": "total_acc",
+        "type": "string"
+      },
+      {
+        "name": "initial_list_status",
+        "type": "string"
+      },
+      {
+        "name": "mths_since_last_major_derog",
+        "type": "string"
+      },
+      {
+        "name": "policy_code",
+        "type": "bigint"
+      },
+      {
+        "name": "LoanDefault_Indicator",
+        "type": "bigint"
+      },
+      {
+        "name": "LoanID",
+        "type": "bigint"
+      },
+      {
+        "name": "proba_0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      },
+      {
+        "name": "prediction_correct",
+        "type": "boolean"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
