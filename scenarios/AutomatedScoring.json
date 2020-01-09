@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576255650917
+    "lastModifiedOn": 1578605531342
   },
   "checklists": {
     "checklists": []
@@ -66,11 +66,6 @@
             {
               "type": "DATASET",
               "itemId": "ScoredResults",
-              "partitionsSpec": ""
-            },
-            {
-              "type": "DATASET",
-              "itemId": "ScoredMetrics",
               "partitionsSpec": ""
             }
           ],
