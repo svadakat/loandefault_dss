@@ -100,7 +100,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -118,7 +117,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -136,7 +134,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -155,7 +152,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -178,7 +174,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -256,13 +251,11 @@
           5
         ],
         "distance_weighting": false,
-        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
-        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -701,11 +694,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1578604387668
+    "lastModifiedOn": 1578609076731
   },
   "creationTag": {
     "versionNumber": 0,
@@ -714,7 +707,9 @@
     },
     "lastModifiedOn": 1578604260069
   },
-  "tags": [],
+  "tags": [
+    "Model Training"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
