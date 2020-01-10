@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
-      "login": "admin"
+      "login": "Suresh"
     },
-    "lastModifiedOn": 1578606171690
+    "lastModifiedOn": 1578688758073
   },
   "creationTag": {
     "versionNumber": 0,
@@ -269,7 +269,7 @@
     "checks": [
       {
         "metricId": "col_stats:MEAN:accuracy",
-        "minimum": 0.6,
+        "minimum": 0.95,
         "maximum": 0.0,
         "softMinimum": 0.0,
         "softMaximum": 0.0,
