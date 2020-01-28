@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "Suresh"
     },
-    "lastModifiedOn": 1580239542894
+    "lastModifiedOn": 1580239562736
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,8 +43,8 @@
   "tags": [],
   "params": {
     "customConfig": {
-      "path": "/Users/sureshvadakath/Documents/DataFiles/",
-      "filename": "PDF2.pdf",
+      "path": "/Users/sureshvadakath/Documents/DataFiles",
+      "filename": "PDF1.pdf",
       "multiple_tables_": true,
       "stream_": false,
       "lattice_": false,
