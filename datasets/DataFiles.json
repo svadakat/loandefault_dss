@@ -1,0 +1,208 @@
+{
+  "type": "Filesystem",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "iso-8859-15",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 17,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 2,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "Suresh"
+    },
+    "lastModifiedOn": 1580230449853
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "Suresh"
+    },
+    "lastModifiedOn": 1580230449853
+  },
+  "tags": [],
+  "params": {
+    "connection": "filesystem_root",
+    "path": "/Users/sureshvadakath/Documents/DataFiles",
+    "notReadyIfEmpty": false,
+    "previewFile": "",
+    "filesSelectionRules": {
+      "mode": "EXPLICIT_SELECT_FILES",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": [
+        "/PDF1.pdf",
+        "/PDF2.pdf"
+      ]
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "xÅ_ä¶Åß\u001bï ] ;°e¢þ\u0001Ù\u0000ö8N6ëIìµ×F°ÙòLÍžÖí€»\u0007vöÓ/)Þ+QU$ïè\u0004!HÛ-Ï÷šøÓ¡(UöÉWÙoûÉçÿþyV|òåáíìö×ßŸ{{ŒûÝï²Ï\u003eýãÙM]æUÕ:¯\u000bé®Îû.k:×:{8\u003e»ùþ7ÙÛg7}ûìæ/Ê¬",
+        "type": "string"
+      },
+      {
+        "name": "só§Ÿ}ýìŠÌ",
+        "type": "string"
+      },
+      {
+        "name": "col_2",
+        "type": "string"
+      },
+      {
+        "name": "col_3",
+        "type": "string"
+      },
+      {
+        "name": "col_4",
+        "type": "string"
+      },
+      {
+        "name": "col_5",
+        "type": "string"
+      },
+      {
+        "name": "col_6",
+        "type": "string"
+      },
+      {
+        "name": "col_7",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
