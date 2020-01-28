@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "Suresh"
     },
-    "lastModifiedOn": 1580235387198
+    "lastModifiedOn": 1580238540278
   },
   "creationTag": {
     "versionNumber": 0,
@@ -42,7 +42,16 @@
   },
   "tags": [],
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "path": "home/user/files/",
+      "filename": "PDF1.pdf",
+      "multiple_tables_": false,
+      "stream_": false,
+      "lattice_": false,
+      "guess_": false,
+      "pages_": "all",
+      "ingested_date_": false
+    },
     "notReadyIfEmpty": false,
     "previewAllPartitions": false
   },
