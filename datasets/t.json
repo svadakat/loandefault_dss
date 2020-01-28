@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "Suresh"
     },
-    "lastModifiedOn": 1580239562736
+    "lastModifiedOn": 1580240565809
   },
   "creationTag": {
     "versionNumber": 0,
@@ -43,11 +43,11 @@
   "tags": [],
   "params": {
     "customConfig": {
-      "path": "/Users/sureshvadakath/Documents/DataFiles",
+      "path": "/Users/sureshvadakath/Documents/DataFiles/",
       "filename": "PDF1.pdf",
-      "multiple_tables_": true,
-      "stream_": false,
-      "lattice_": false,
+      "multiple_tables_": false,
+      "stream_": true,
+      "lattice_": true,
       "guess_": false,
       "pages_": "all",
       "ingested_date_": false
