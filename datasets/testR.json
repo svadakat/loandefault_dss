@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "Suresh"
     },
-    "lastModifiedOn": 1580481635685
+    "lastModifiedOn": 1580481668003
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,149 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "loan_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "funded_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "term",
+        "type": "string"
+      },
+      {
+        "name": "int_rate",
+        "type": "double"
+      },
+      {
+        "name": "installment",
+        "type": "double"
+      },
+      {
+        "name": "grade",
+        "type": "string"
+      },
+      {
+        "name": "sub_grade",
+        "type": "string"
+      },
+      {
+        "name": "LoanDefault_Indicator",
+        "type": "bigint"
+      },
+      {
+        "name": "LoanID",
+        "type": "bigint"
+      },
+      {
+        "name": "emp_title",
+        "type": "string"
+      },
+      {
+        "name": "emp_length",
+        "type": "string"
+      },
+      {
+        "name": "home_ownership",
+        "type": "string"
+      },
+      {
+        "name": "annual_inc",
+        "type": "double"
+      },
+      {
+        "name": "verification_status",
+        "type": "string"
+      },
+      {
+        "name": "pymnt_plan",
+        "type": "boolean"
+      },
+      {
+        "name": "url",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "string"
+      },
+      {
+        "name": "purpose",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "zip_code",
+        "type": "string"
+      },
+      {
+        "name": "addr_state",
+        "type": "string"
+      },
+      {
+        "name": "dti",
+        "type": "double"
+      },
+      {
+        "name": "delinq_2yrs",
+        "type": "bigint"
+      },
+      {
+        "name": "earliest_cr_line",
+        "type": "string"
+      },
+      {
+        "name": "inq_last_6mths",
+        "type": "bigint"
+      },
+      {
+        "name": "mths_since_last_delinq",
+        "type": "bigint"
+      },
+      {
+        "name": "mths_since_last_record",
+        "type": "bigint"
+      },
+      {
+        "name": "open_acc",
+        "type": "bigint"
+      },
+      {
+        "name": "pub_rec",
+        "type": "bigint"
+      },
+      {
+        "name": "revol_bal",
+        "type": "bigint"
+      },
+      {
+        "name": "revol_util",
+        "type": "double"
+      },
+      {
+        "name": "total_acc",
+        "type": "bigint"
+      },
+      {
+        "name": "initial_list_status",
+        "type": "boolean"
+      },
+      {
+        "name": "mths_since_last_major_derog",
+        "type": "boolean"
+      },
+      {
+        "name": "policy_code",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
