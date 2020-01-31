@@ -7,6 +7,6 @@ loandefaulteval1_joined_prepared <- dkuReadDataset("loandefaulteval1_joined_prep
 # TODO: Replace this part by your actual code that computes the output, as a R dataframe or data table
 testR <- loandefaulteval1_joined_prepared # For this sample code, simply copy input to output
 
-
+##testing
 # Recipe outputs
 dkuWriteDataset(testR,"testR")
