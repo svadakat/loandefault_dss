@@ -329,8 +329,8 @@
       "def": {
         "type": "pivot_table",
         "variant": "colored",
-        "name": "Avg. of LoanDefault_Indicator by grade and loan_amnt",
-        "userEditedName": false,
+        "name": "Default Rate  \u0026 Loan Principal by Loan Tranche",
+        "userEditedName": true,
         "genericDimension0": [],
         "genericDimension1": [],
         "facetDimension": [],
