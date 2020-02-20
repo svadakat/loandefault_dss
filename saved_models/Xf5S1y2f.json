@@ -1,7 +1,7 @@
 {
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
-  "name": "LoanScoring",
+  "name": "LoanScoringModel",
   "contentType": "prediction/py_memory",
   "activeVersion": "1578604387633",
   "conditionalOutputs": [],
@@ -694,11 +694,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1582213102019
+    "lastModifiedOn": 1582213113228
   },
   "creationTag": {
     "versionNumber": 0,
