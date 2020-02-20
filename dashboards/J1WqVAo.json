@@ -45,29 +45,6 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "Na6ZpPW",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
             "insightId": "YuO3BM1",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -83,11 +60,11 @@
   "name": "test",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1582164093628
+    "lastModifiedOn": 1582164241539
   },
   "creationTag": {
     "versionNumber": 0,
