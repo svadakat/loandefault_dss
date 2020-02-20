@@ -294,7 +294,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACe0lEQVRoQ+2YPU/bQBjHnwsBgSLeFLqROEwgMSB5ysSCKgYMCwsv34AFFppkQkwhsNCl/QZlYmhiBlR1z9QBCQk2O4y0iBdFvKUxOhMj49wlZ/ecuLG9RNG9+H73f57/c2cEPnsQb95vvy40POeKGOM+N8taE5nChJKdP6P15b6odgM32xRmYAzCoprHgDGfHnHG0+nAdYIHwLQc+E9D2j2Fjdw13kDKdy/kN7eQDoAJddhthROf8klld6HYqDR1lMJCSj5Uc9JiW4HNZsdTYSEj/1az0kizg4a13TWF8Ys0gJ8IYMYwMJ7AdkG5HzyspuVrYKsaLEdUOwoKafmHuiN9ZBnTkpAmLwQpK+LomNHGGu5CWl5Td6QvLHCkPm0E1k4B0CRzfm9thWB7u+oUtKU5TF6kTeB/Ja2N56IwybDMpuUEOJEq5JTcfAqPFTJHf9TsXJQHcx0wLZcaXR7cAOYBx5TDXgKOb+al0t6CzBM+UNiqcO0//kyCaPWzo0LaDEy76wbAtZ3BZ+mT0vXMVHyIkIavZcntU1jTy0OjkKa4XlEDSJLajMtDo7JEA2b9pGTX0KimZZlIz2FfAu8fn8PG7LjOflV+gmikR1f4qVKFnnDobU8OiiVYSsb166EdhWt9DwBgmfclA8/tOYV9DUyrCnbz1tzf0woTwI41QN9XxdGvTqGZge8eKqi/N1z3HgTA1aXNIU1x/tyqGEtzB1Yuy5D4EIHb+2cY6OtumUuzACOAlFNDIyr8t6pBV+hdk+eAnR5YmEO6VXWYVWHfA+sboMFnQLD+eFMZxn97B8N5/LssxqaNDWL+4uHUJLw2LgD2miK81+M7hV8AYv4nRwx+jwMAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACmklEQVRoQ2NkGGGAkZr+XXb20UcGRka+KCNZqppLTTdS1WHDwsPLzj3+DwphYmJt1MPUTItUMotgkh6NYTwhPaKSNDgl/P//CV8pDVLzn4VXKFpP4D2VUijJxlAtSQ8WD8uWbTR53OV/BldIDDsPy1dsDX7Y4b12WHpYvnLL8oftPpGkpGuaxjB6CT9s8zB6iMMaLaMeJiUtUkktTZI0PrcNy2pp1MNIIQCKYcY/n98xMjBM+s/AkIecv4ntpFCSugckSZPjYYnKbaIv2r1eU+JZkF6KPbz0/OMp0YayOcgtLUJJmhwPU+pRmH6KPQzyKChZUtPD8hVblj3s8ImilieRzUHxMLauIKHuIbU9XLfxMv+dRq9PIEfKVW6qeNTu10FNjw86DxMzskJJAOD1MCx28ZWe1I7hQeNhWKiiO4haHu7dd+u/pAAnUWNndIlhSjy8+fxTBl9DabARfdtvuhV5qu9Croflqjbnd4QYTKB7PYytd4Memv8Z/l8DizEyloKp/wxbKSmlcXU0KIlFfHqx5uH/jIyG0YYyF5DzMD5DaOFhsN2MDEuiDGVjqel5rB6GJS1SPGzWvud/gZsaeEwLpL9763WGUm9NDLeiNy1xxfCg8PCmc08Z/IwgeXHVyUcMYeZyYHbF6ku+HaF6m2GDeKS0tPDG3kDG8Ldffxm42Jixuo+aSRrFgoH0ML3yMLqHGf4zxFCzbqZaHia3LU0oSYM8/J/htwIjA+sDZiZGJ5D6cAOZ/eQWZEPKw7jaAqR4HqeHS1ffFOkOVX9DjGG0zMPIMUyNOntIxjC2SPjPwPAh2khWkFAEjXoYOZ+Q0vCgR6GFt35nYPjAyMAgAM1eR6OMZK2xqSc44kEoiQw1+VEPD7UYI9W9AKNaDVbxWLdRAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_TOP"
@@ -329,7 +329,7 @@
       "def": {
         "type": "pivot_table",
         "variant": "colored",
-        "name": "Avg. of int_rate by grade and loan_amnt",
+        "name": "Avg. of LoanDefault_Indicator by grade and loan_amnt",
         "userEditedName": false,
         "genericDimension0": [],
         "genericDimension1": [],
@@ -337,7 +337,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "int_rate",
+            "column": "LoanDefault_Indicator",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -380,12 +380,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of int_rate, descending"
+                "label": "Average of LoanDefault_Indicator, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of int_rate, ascending",
+                "label": "Average of LoanDefault_Indicator, ascending",
                 "sortAscending": true
               },
               {
@@ -431,12 +431,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of int_rate, descending"
+                "label": "Average of LoanDefault_Indicator, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of int_rate, ascending",
+                "label": "Average of LoanDefault_Indicator, ascending",
                 "sortAscending": true
               },
               {
