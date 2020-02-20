@@ -1,7 +1,7 @@
 {
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
-  "name": "Prediction (LOGISTIC_REGRESSION) on Lendingclub_training_prepared",
+  "name": "LoanScoring",
   "contentType": "prediction/py_memory",
   "activeVersion": "1578604387633",
   "conditionalOutputs": [],
@@ -694,11 +694,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1582213071607
+    "lastModifiedOn": 1582213102019
   },
   "creationTag": {
     "versionNumber": 0,
