@@ -329,7 +329,7 @@
       "def": {
         "type": "pivot_table",
         "variant": "colored",
-        "name": "Default Rate  \u0026 Loan Principal by Loan Tranche",
+        "name": "Default Rate  \u0026 Net Loan Principal by Income Level \u0026 Tranche",
         "userEditedName": true,
         "genericDimension0": [],
         "genericDimension1": [],
