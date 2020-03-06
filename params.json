@@ -234,11 +234,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 66,
+    "versionNumber": 67,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1582574999533
+    "lastModifiedOn": 1583516770174
   },
   "creationTag": {
     "versionNumber": 0,
@@ -247,7 +247,7 @@
     },
     "lastModifiedOn": 1572372585227
   },
-  "description": "This project creates a model to predict the likelihood of loan default",
+  "description": "The goal of the project is to predict the risk of default on loans for customers and advise them on how to reduce their risk. We use historical data from 2007 to 2012 to build machine learning models and use our  final model to score incoming loan applications.",
   "shortDesc": "The project *LoanDefaultNew* was created by Administrator on Oct 29th 2019",
   "tags": [],
   "customFields": {},
