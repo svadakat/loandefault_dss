@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 26,
+    "versionNumber": 27,
     "lastModifiedBy": {
-      "login": "Suresh"
+      "login": "admin"
     },
-    "lastModifiedOn": 1578688762600
+    "lastModifiedOn": 1584015654325
   },
   "checklists": {
     "checklists": []
@@ -61,6 +61,8 @@
         ],
         "runConditionExpression": "",
         "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
         "params": {
           "builds": [
             {
@@ -90,6 +92,8 @@
         ],
         "runConditionExpression": "",
         "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
         "params": {
           "checks": [
             {
