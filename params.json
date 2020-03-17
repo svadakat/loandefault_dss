@@ -28,13 +28,6 @@
         "modes": [
           "READ"
         ]
-      },
-      {
-        "objectRef": {
-          "objectId": "Lendingclub_training",
-          "objectType": "DATASET"
-        },
-        "modes": []
       }
     ]
   },
@@ -46,16 +39,6 @@
         "rules": [
           {
             "targetProject": "TEST",
-            "appearOnFlow": true
-          }
-        ]
-      },
-      {
-        "type": "DATASET",
-        "localName": "Lendingclub_training",
-        "rules": [
-          {
-            "targetProject": "DEMO",
             "appearOnFlow": true
           }
         ]
@@ -168,11 +151,18 @@
         "containerSelection": {
           "containerMode": "INHERIT"
         },
+        "overrideGlobalK8sExposition": false,
         "exposition": {
           "type": "local_process",
           "params": {}
         },
-        "nbReplicas": 1
+        "scaling": {
+          "initialReplicas": 1,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0
+        }
       }
     }
   },
@@ -234,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 67,
+    "versionNumber": 68,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1583516770174
+    "lastModifiedOn": 1584444587657
   },
   "creationTag": {
     "versionNumber": 0,
