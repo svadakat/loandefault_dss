@@ -224,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 71,
+    "versionNumber": 72,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584535030731
+    "lastModifiedOn": 1584535099190
   },
   "creationTag": {
     "versionNumber": 0,
@@ -237,7 +237,7 @@
     },
     "lastModifiedOn": 1572372585227
   },
-  "description": " # **CREDIT RISK MODEL - Loan Default** \nThe goal of the project is to predict the risk of default on loans for customers and advise them on how to reduce their risk. We use historical data from 2007 to 2012 to build machine learning models and use our  final model to score incoming loan applications.",
+  "description": " # **CREDIT RISK MODEL - Loan Default** \n \nA  hedge fund is considering investing $40 Million/yr in loans on LendingClub.com. These\nloans are an appealing investment with interest rates averaging 17%. However, 5% of\ninvested money on the site is lost due to borrower defaults. You would like to be able to\nscreen out the riskiest borrowers. If successful, your organization will use your approach to\njustify investing on the site. They will then apply the method in an automated fashion to\nchoose which loans to fund.\n\nThe goal of the project is to predict the risk of default on loans for customers and advise them on how to reduce their risk. We use historical data from 2007 to 2012 to build machine learning models and use our  final model to score incoming loan applications.",
   "shortDesc": "The project *LoanDefaultNew* was created by Administrator on Oct 29th 2019",
   "tags": [],
   "customFields": {},
