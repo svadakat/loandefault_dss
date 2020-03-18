@@ -224,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 68,
+    "versionNumber": 71,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584444587657
+    "lastModifiedOn": 1584535030731
   },
   "creationTag": {
     "versionNumber": 0,
@@ -237,7 +237,7 @@
     },
     "lastModifiedOn": 1572372585227
   },
-  "description": "The goal of the project is to predict the risk of default on loans for customers and advise them on how to reduce their risk. We use historical data from 2007 to 2012 to build machine learning models and use our  final model to score incoming loan applications.",
+  "description": " # **CREDIT RISK MODEL - Loan Default** \nThe goal of the project is to predict the risk of default on loans for customers and advise them on how to reduce their risk. We use historical data from 2007 to 2012 to build machine learning models and use our  final model to score incoming loan applications.",
   "shortDesc": "The project *LoanDefaultNew* was created by Administrator on Oct 29th 2019",
   "tags": [],
   "customFields": {},
@@ -258,6 +258,13 @@
             "done": false,
             "text": "@jane to review project ",
             "createdOn": 1572372585227,
+            "createdBy": "admin",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "@suresh to walkthrough model process with business team on 04/01/2020",
+            "createdOn": 1584534957626,
             "createdBy": "admin",
             "stateChangedOn": 0
           }
