@@ -224,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 75,
+    "versionNumber": 76,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584535220090
+    "lastModifiedOn": 1584535330848
   },
   "creationTag": {
     "versionNumber": 0,
@@ -255,7 +255,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "@jane to review project ",
             "createdOn": 1572372585227,
             "createdBy": "admin",
