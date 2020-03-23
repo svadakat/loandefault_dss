@@ -69,9 +69,9 @@
       "customEvaluationMetricGIB": true,
       "costMatrixWeights": {
         "fpGain": -0.3,
-        "tpGain": 1.0,
-        "fnGain": 0.0,
-        "tnGain": 0.0
+        "tpGain": 1,
+        "fnGain": 0,
+        "tnGain": 0
       },
       "liftPoint": 0.4,
       "evaluationMetric": "ROC_AUC",
@@ -79,7 +79,7 @@
       "thresholdOptimizationMetric": "F1"
     },
     "autoOptimizeThreshold": true,
-    "forcedClassifierThreshold": 0.0,
+    "forcedClassifierThreshold": 0,
     "grid_search_params": {
       "mode": "KFOLD",
       "nJobs": 4,
@@ -94,7 +94,7 @@
     },
     "skipExpensiveReports": false,
     "xgboost_grid": {
-      "scale_pos_weight": 1.0,
+      "scale_pos_weight": 1,
       "base_score": 0.5,
       "seed": 1337,
       "enable_early_stopping": true,
@@ -142,7 +142,7 @@
       },
       "lambda": {
         "values": [
-          1.0
+          1
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
@@ -150,23 +150,23 @@
       "impute_missing": false,
       "alpha": {
         "values": [
-          0.0
+          0
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
       },
-      "missing": 0.0,
+      "missing": 0,
       "cpu_tree_method": "auto",
       "min_child_weight": {
         "values": [
-          0.0
+          0
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
       },
       "max_delta_step": {
         "values": [
-          0.0
+          0
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
@@ -174,7 +174,7 @@
       "colsample_bytree": {
         "values": [
           0.75,
-          1.0
+          1
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
@@ -186,14 +186,14 @@
       "subsample": {
         "values": [
           0.75,
-          1.0
+          1
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
       },
       "colsample_bylevel": {
         "values": [
-          1.0
+          1
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
@@ -211,7 +211,7 @@
       },
       "gamma": {
         "values": [
-          0.0
+          0
         ],
         "nValues": 0,
         "gridMode": "EXPLICIT"
@@ -224,7 +224,7 @@
   "generatingModelId": "A-LOANDEFAULTNEW-3abXTW0T-mwPlSm0q-s1-pp2-m1",
   "preprocessing": {
     "reduce": {
-      "kept_variance": 0.0,
+      "kept_variance": 0,
       "enabled": false
     },
     "target_remapping": [
@@ -246,7 +246,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -259,7 +259,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "purpose": {
         "min_samples": 10,
@@ -288,7 +288,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -301,7 +301,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "verification_status": {
         "min_samples": 10,
@@ -395,14 +395,14 @@
         "generate_derivative": false,
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "state": {
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
         "type": "NUMERIC",
-        "impute_constant_value": 0.0,
+        "impute_constant_value": 0,
         "binarize_threshold_mode": "MEDIAN"
       },
       "pymnt_plan": {
@@ -456,14 +456,14 @@
         "generate_derivative": false,
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "state": {
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
         "type": "NUMERIC",
-        "impute_constant_value": 0.0,
+        "impute_constant_value": 0,
         "binarize_threshold_mode": "MEDIAN"
       },
       "dti": {
@@ -472,7 +472,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -485,7 +485,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "delinq_2yrs": {
         "rescaling": "AVGSTD",
@@ -493,7 +493,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -506,7 +506,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "term": {
         "min_samples": 10,
@@ -556,7 +556,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -569,7 +569,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "mths_since_last_delinq": {
         "rescaling": "AVGSTD",
@@ -577,7 +577,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -590,7 +590,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "sub_grade": {
         "min_samples": 10,
@@ -640,7 +640,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -653,7 +653,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "mths_since_last_major_derog": {
         "min_samples": 10,
@@ -684,14 +684,14 @@
         "generate_derivative": false,
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "state": {
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
         "type": "NUMERIC",
-        "impute_constant_value": 0.0,
+        "impute_constant_value": 0,
         "binarize_threshold_mode": "MEDIAN"
       },
       "emp_title": {
@@ -806,7 +806,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -819,7 +819,7 @@
           "recordedMeaning": "DoubleMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "grade": {
         "min_samples": 10,
@@ -869,7 +869,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -882,7 +882,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "loan_amnt": {
         "rescaling": "AVGSTD",
@@ -890,7 +890,7 @@
         "role": "INPUT",
         "sendToInput": "main",
         "customHandlingCode": "",
-        "binarize_constant_threshold": 0.0,
+        "binarize_constant_threshold": 0,
         "type": "NUMERIC",
         "binarize_threshold_mode": "MEDIAN",
         "customProcessorWantsMatrix": false,
@@ -903,7 +903,7 @@
           "recordedMeaning": "LongMeaning",
           "userModified": false
         },
-        "impute_constant_value": 0.0
+        "impute_constant_value": 0
       },
       "open_acc": {
         "min_samples": 10,
@@ -996,7 +996,7 @@
         "behavior": "DISABLED"
       }
     },
-    "preprocessingFitSampleRatio": 1.0,
+    "preprocessingFitSampleRatio": 1,
     "preprocessingFitSampleSeed": 1337,
     "feature_selection_params": {
       "pca_params": {
@@ -1008,16 +1008,16 @@
       },
       "method": "NONE",
       "correlation_params": {
-        "min_abs_correlation": 0.0,
+        "min_abs_correlation": 0,
         "n_features": 25
       },
       "lasso_params": {
         "alpha": [
           0.01,
           0.1,
-          1.0,
-          10.0,
-          100.0
+          1,
+          10,
+          100
         ],
         "cross_validate": true
       },
