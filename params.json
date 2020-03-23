@@ -73,7 +73,11 @@
           "name": "EvalTestRemainingCols"
         }
       ],
-      "includedSavedModels": [],
+      "includedSavedModels": [
+        {
+          "id": "pErffTrC"
+        }
+      ],
       "includedManagedFolders": [],
       "shareAllInputDatasets": false
     }
@@ -256,11 +260,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 79,
+    "versionNumber": 80,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584981723246
+    "lastModifiedOn": 1584981901005
   },
   "creationTag": {
     "versionNumber": 0,
