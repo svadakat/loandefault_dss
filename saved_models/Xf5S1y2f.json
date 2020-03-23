@@ -3,7 +3,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "LoanScoringModel",
   "contentType": "prediction/py_memory",
-  "activeVersion": "1584014923493",
+  "activeVersion": "1578604387633",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -1088,11 +1088,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584014923562
+    "lastModifiedOn": 1584979986561
   },
   "creationTag": {
     "versionNumber": 0,
