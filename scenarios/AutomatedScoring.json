@@ -2,14 +2,14 @@
   "projectKey": "LOANDEFAULTNEW",
   "id": "AutomatedScoring",
   "type": "step_based",
-  "name": "AutomatedScoring",
+  "name": "AutomatedEvaluation",
   "active": true,
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584977762295
+    "lastModifiedOn": 1584978152993
   },
   "checklists": {
     "checklists": []
