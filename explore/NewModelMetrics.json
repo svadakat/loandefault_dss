@@ -5,6 +5,7 @@
     "columnsSelection": {
       "mode": "ALL"
     },
+    "columnWidthsByName": {},
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -48,7 +49,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "lines",
+        "type": "grouped_columns",
         "variant": "normal",
         "name": "Avg. of auc by date",
         "userEditedName": false,
@@ -185,7 +186,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYElEQVRoQ+3UAREAQAiEQO1f+gN8A1wbCMztHLs99u94uG6cYYZjBCQdE/q9wzDDMQKSjgk1WpKWdIyApGNCrbSkJR0jIOmYUCstaUnHCEg6JtRKS1rSMQKSjgm10ueSfinJACn8bS8UAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAqElEQVRoQ+3ZvQ2AIBRGUUjcg1ns3cfS2n3sLJjFIUwsKfQlEkMDzUe8tkby/jgS9e5nly/lG+Ytvu8d6zR2VZslDuE6d4vZ4idhqwgdZqTFdzR7+EYXtEDrqQDvYXGzHGiBVj6jnLQ4aYmrBVqgBVp88RBnKg8PtEALtEALtJQrgNIojdIorWzUJzbQAq2uBrY62OK/peoVxR8kYfEGNYdHh5tLKL5AAtTDSjhAmVsNAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
