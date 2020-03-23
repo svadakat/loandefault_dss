@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584978253664
+    "lastModifiedOn": 1584978332604
   },
   "checklists": {
     "checklists": []
@@ -20,7 +20,28 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "gJEbMT1l",
+      "type": "ds_modified",
+      "name": "WhenNewScoringDataComesIn",
+      "delay": 900,
+      "active": true,
+      "params": {
+        "watches": [
+          {
+            "type": "DATASET",
+            "itemId": "EvalTestRemainingCols",
+            "partitionsSpec": ""
+          }
+        ]
+      },
+      "graceDelaySettings": {
+        "delay": 120,
+        "checkAgainAfterGraceDelay": true
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
