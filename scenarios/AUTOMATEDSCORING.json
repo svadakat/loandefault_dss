@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584978815481
+    "lastModifiedOn": 1584978920637
   },
   "checklists": {
     "checklists": []
@@ -68,6 +68,16 @@
             {
               "type": "DATASET",
               "itemId": "EvalRows",
+              "partitionsSpec": ""
+            },
+            {
+              "type": "DATASET",
+              "itemId": "NewModelMetrics",
+              "partitionsSpec": ""
+            },
+            {
+              "type": "DATASET",
+              "itemId": "NewModelResults",
               "partitionsSpec": ""
             }
           ],
