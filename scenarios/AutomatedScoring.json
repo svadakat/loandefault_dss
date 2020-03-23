@@ -3,13 +3,13 @@
   "id": "AutomatedScoring",
   "type": "step_based",
   "name": "AutomatedScoring",
-  "active": false,
+  "active": true,
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584015654325
+    "lastModifiedOn": 1584977718498
   },
   "checklists": {
     "checklists": []
