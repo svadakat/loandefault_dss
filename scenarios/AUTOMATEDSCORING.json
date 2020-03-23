@@ -5,11 +5,11 @@
   "name": "AutomatedScoring",
   "active": false,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584978332604
+    "lastModifiedOn": 1584978491048
   },
   "checklists": {
     "checklists": []
@@ -33,6 +33,11 @@
             "type": "DATASET",
             "itemId": "EvalTestRemainingCols",
             "partitionsSpec": ""
+          },
+          {
+            "type": "DATASET",
+            "itemId": "DATALOAD_TEMP1_loandefaulteval1",
+            "partitionsSpec": ""
           }
         ]
       },
@@ -44,7 +49,28 @@
   ],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "build_0_true",
+        "type": "build_flowitem",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
