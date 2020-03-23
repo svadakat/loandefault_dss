@@ -65,7 +65,7 @@
             },
             "maxValues": 0,
             "generateOthersCategory": true,
-            "oneTickPerBin": false,
+            "oneTickPerBin": true,
             "filters": [],
             "isA": "dimension",
             "possibleSorts": [
@@ -132,7 +132,7 @@
             "column": "date",
             "columnType": "DATE",
             "dateFilterType": "RANGE",
-            "minValue": 1.578587490086E12,
+            "minValue": 1.578587490087E12,
             "isA": "filter",
             "excludedValues": {},
             "explicitExclude": false
@@ -161,7 +161,7 @@
         "colorOptions": {
           "singleColor": "#2678B1",
           "transparency": 0.75,
-          "colorPalette": "default",
+          "colorPalette": "dku_pastel2",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -197,7 +197,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAo0lEQVRoQ+3aIQ6AMAyF4S7hHjsLnvsg0dwHh9hZOAQJcgKasBDEXJv+aET7tn5bCEmCPSlYv/LbcJ638g7jWKfRVThLGfJ17lqz1k/DmggrzJY2PtHM8I0uaIHWkwDnsHGzBLRAq92j3LS4aRlXC7RAC7T44mGcqbY80AIt0AIt0LKcAEqjNEqjtGWjPrWBFmgFR8vVvHYUyz8eHWG5fDXcCldaBFQ49pg4NQAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAsElEQVRoQ+2aOw5AQBRF7xQqjS3prEFvU2yEynK0dkAyycgQKpPMS+ZYAO8zzskNToVdrrB+9dnwPnRrGEYzza21wcT1Ve7o63HZnjW+9UDDYUps2NiZ5kjzDktAS0JLF5qgNJTOOwG0hJbQkg9AhAfCgyTycF4j+aejJbSEltDSDUWkJQNkjkuA0lAaSkNpKM3HNENqQkt/tWRomUlL4Q+ApOM0eDM2bHApSUsqbsMngTrAOEASugwAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
