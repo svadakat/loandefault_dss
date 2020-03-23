@@ -5,11 +5,11 @@
   "name": "AutomatedEvaluationWithGroundTruth",
   "active": false,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584981347094
+    "lastModifiedOn": 1584981350189
   },
   "checklists": {
     "checklists": []
