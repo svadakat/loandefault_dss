@@ -5,13 +5,31 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "date": 204,
+      "precision": 148,
+      "recall": 141,
+      "auc": 141,
+      "f1": 148,
+      "accuracy": 106,
+      "mcc": 148,
+      "hammingLoss": 100,
+      "logLoss": 141,
+      "lift": 141,
+      "calibrationLoss": 155,
+      "customScore": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "sorting": [],
+    "sorting": [
+      {
+        "column": "date",
+        "ascending": true
+      }
+    ],
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
@@ -39,7 +57,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
