@@ -126,14 +126,25 @@
         "tooltipMeasures": [],
         "boxplotBreakdownDim": [],
         "boxplotValue": [],
-        "filters": [],
+        "filters": [
+          {
+            "filterType": "DATE_FACET",
+            "column": "date",
+            "columnType": "DATE",
+            "dateFilterType": "RANGE",
+            "minValue": 1.578587490086E12,
+            "isA": "filter",
+            "excludedValues": {},
+            "explicitExclude": false
+          }
+        ],
         "axis1LogScale": false,
         "axis2LogScale": false,
         "includeZero": true,
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
-        "showInChartValues": false,
+        "showInChartValues": true,
         "showInChartLabels": true,
         "strokeWidth": 1,
         "fillOpacity": 0.6,
@@ -186,7 +197,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAqElEQVRoQ+3ZvQ2AIBRGUUjcg1ns3cfS2n3sLJjFIUwsKfQlEkMDzUe8tkby/jgS9e5nly/lG+Ytvu8d6zR2VZslDuE6d4vZ4idhqwgdZqTFdzR7+EYXtEDrqQDvYXGzHGiBVj6jnLQ4aYmrBVqgBVp88RBnKg8PtEALtEALtJQrgNIojdIorWzUJzbQAq2uBrY62OK/peoVxR8kYfEGNYdHh5tLKL5AAtTDSjhAmVsNAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAo0lEQVRoQ+3aIQ6AMAyF4S7hHjsLnvsg0dwHh9hZOAQJcgKasBDEXJv+aET7tn5bCEmCPSlYv/LbcJ638g7jWKfRVThLGfJ17lqz1k/DmggrzJY2PtHM8I0uaIHWkwDnsHGzBLRAq92j3LS4aRlXC7RAC7T44mGcqbY80AIt0AIt0LKcAEqjNEqjtGWjPrWBFmgFR8vVvHYUyz8eHWG5fDXcCldaBFQ49pg4NQAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
