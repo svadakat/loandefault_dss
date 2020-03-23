@@ -890,7 +890,7 @@
       "max_feature_prop": 0.3
     },
     "random_forest_classification": {
-      "enabled": false,
+      "enabled": true,
       "n_estimators": {
         "values": [
           100
@@ -958,7 +958,7 @@
       "max_feature_prop": 0.3
     },
     "gbt_classification": {
-      "enabled": false,
+      "enabled": true,
       "n_estimators": {
         "values": [
           100
@@ -1061,7 +1061,7 @@
       }
     },
     "decision_tree_classification": {
-      "enabled": true,
+      "enabled": false,
       "max_depth": {
         "values": [
           5
@@ -1225,7 +1225,7 @@
       "leaf_size": 30
     },
     "logistic_regression": {
-      "enabled": true,
+      "enabled": false,
       "multi_class": "ovr",
       "penalty": {
         "values": {
@@ -1396,7 +1396,7 @@
       "K": 100
     },
     "xgboost": {
-      "enabled": false,
+      "enabled": true,
       "max_depth": {
         "values": [
           3
