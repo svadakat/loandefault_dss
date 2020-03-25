@@ -807,7 +807,7 @@
         "stopWordsMode": "NONE",
         "useCustomVectorizer": false,
         "name": "desc",
-        "role": "REJECT",
+        "role": "INPUT",
         "type": "TEXT",
         "state": {
           "userModified": false,
