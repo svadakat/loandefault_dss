@@ -108,17 +108,33 @@
           }
         ],
         "id": "0abDfws"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "loan_amnt",
+          "type": "CONTINUOUS"
+        },
+        "id": "Omy0q4L"
       }
     ],
     "id": "sEIGO9y"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1584542856043
+    "lastModifiedOn": 1586268748428
   },
   "creationTag": {
     "versionNumber": 0,
