@@ -70,6 +70,9 @@
       "useManualPluginsInfo": false,
       "includedDatasetsData": [
         {
+          "name": "Lendingclub_training"
+        },
+        {
           "name": "EvalTestRemainingCols"
         }
       ],
@@ -261,11 +264,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 81,
+    "versionNumber": 82,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586268074774
+    "lastModifiedOn": 1586287377310
   },
   "creationTag": {
     "versionNumber": 0,
