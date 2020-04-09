@@ -1052,7 +1052,7 @@
       }
     },
     "decision_tree_classification": {
-      "enabled": false,
+      "enabled": true,
       "max_depth": {
         "values": [
           5
@@ -1271,7 +1271,7 @@
       "learning_rate_init": 0.001
     },
     "svc_classifier": {
-      "enabled": false,
+      "enabled": true,
       "C": {
         "values": [
           1.0
@@ -1387,7 +1387,7 @@
       "K": 100
     },
     "xgboost": {
-      "enabled": false,
+      "enabled": true,
       "max_depth": {
         "values": [
           3
