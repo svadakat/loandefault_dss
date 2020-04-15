@@ -3,6 +3,8 @@
     "recipe-editor": {},
     "Model Training": {},
     "Model Scoring": {},
-    "deleted-recipe-editor": {}
+    "deleted-recipe-editor": {},
+    "ml": {},
+    "loandefault": {}
   }
 }
